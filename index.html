@@ -38,6 +38,7 @@
 
     <!--Responsive css-->
     <link rel="stylesheet" href="css/responsive.css">
+    <script src="cv.js"></script>
 </head>
 <body>
 
@@ -68,16 +69,16 @@
                         </div>
 
                         <div class="navbar-collapse collapse">
-                            <nav>
+                            <nav >
                                 <ul class="nav navbar-nav navbar-right">
-                                    <li class="active"><a class="smooth-menu" href="#home">Home</a></li>
-                                    <li><a class="smooth-menu" href="#about">Bio</a></li>  
-                                    <li><a class="smooth-menu" href="#cv">CV</a></li>                                  
-                                    <li><a class="smooth-menu" href="#project">Projects</a></li>
-                                    <li><a class="smooth-menu" href="publications">Publications</a></li>
-                                    <li><a class="smooth-menu" href="#resume">Experience</a></li> 
-                                    <li><a class="smooth-menu" href="#people">People</a></li>                                   
-                                    <li><a class="smooth-menu" href="#contact">Contact</a></li>
+                                    <li class="active"><a href="#home"><span data-hover>Home</span></a></li>
+                                    <li><a href="#about"><span data-hover>Bio</span></a></li>  
+                                    <li><a href="cv.html"><span data-hover>CV</span></a></li>                     
+                                    <li><a href="#project"><span data-hover>Projects</span></a></li>
+                                    <li><a href="pub.html"><span data-hover>Publications</span></a></li>
+                                    <li><a href="#resume"><span data-hover>Experience</span></a></li> 
+                                    <li><a href="#people"><span data-hover>People</span></a></li>                                   
+                                    <li><a href="#contact"><span data-hover>Contact</span></a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -160,32 +161,9 @@
             <div class="col-md-7 col-md-offset-1 col-sm-12">
                 <div class="about-right">
                     <h2>Electrical Engineering PhD</h2>
-                    <p>I am <strong>Munkhjargal Gochoo</strong>. I am a simple , creative, enthusiastic and fun-loving person.  </p>
-                    <!--
-                    <p><strong>Munkhjargal Gochoo</strong> was born in Ulaanbaatar City, Mongolia, in 1984. He received B.S. and M.S. degrees in Electronics Engineering from the Mongolian University of Science and Technology in 2004 and 2005, respectively. He stayed at Department of Electronics, Mongolian University of Science and Technology as a Lecturer during 2005-2011. In 2017, he got his Ph.D. degree from National Taipei University of Technology in electrical engineering field. During 2017-2018, he was a Research Assistant Professor at Department of Electronic Engineering, National Taipei University of Technology, Taipei, Taiwan. During 2018-2019, he worked as a post-doctoral researcher at the Department of Computer Science and Engineering, National Taiwan Ocean University, Taiwan. Currently, he is working as an Assistant Professor at Department of Computer Science and Software Engineering, College of Information Technology, United Arab Emirates University, UAE. Prof. Gochoo is a Visiting Professor at Department of Electrical Engineering, National Taipei University of Technology. He is a Co-PI of AI and Robotics Lab, UAEU. His main research interests are deep learning, artificial intelligence, social robotics, e-health, eldercare, IoT, wearable systems, and computers.</p>
-                    
-                    
-
-                 
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <ul class="about-list">
-                                <li> <span class="title">Name</span> <span class="value">Munkhjargal Gochoo</span> </li>
-                                <li> <span class="title">Age</span> <span class="value">36 Years</span> </li>
-                                <li> <span class="title">Email</span> <span class="value">mgochoo@uaeu.ac.ae g.munkhjargal@must.edu.mn</span> </li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-6">
-                            <ul class="about-list">
-                                <li> <span class="title">Phone</span> <span class="value">...</span> </li>
-                                <li> <span class="title">Address</span> <span class="value">...</span> </li>
-                                <li> <span class="title">Hobby</span> <span class="value">Basketball , Ping Pong , Hiking , Traveling , Singing , Playing Guitar</span> </li>
-                            </ul>
-                        </div>
-                    </div>
-                    -->
+                    <p><strong>Munkhjargal Gochoo</strong> was born in Mongolia. He received B.S. and M.S. degrees in Electronics Engineering from the Mongolian University of Science and Technology in 2004 and 2005, respectively. He stayed at Department of Electronics, Mongolian University of Science and Technology as a Lecturer during 2005-2011. In 2017, he got his Ph.D. degree from National Taipei University of Technology in electrical engineering field. During 2017-2018, he was a Research Assistant Professor at Department of Electronic Engineering, National Taipei University of Technology, Taipei, Taiwan. During 2018-2019, he worked as a post-doctoral researcher at the Department of Computer Science and Engineering, National Taiwan Ocean University, Taiwan. Currently, he is working as an Assistant Professor at Department of Computer Science and Software Engineering, College of Information Technology, United Arab Emirates University, UAE. Prof. Gochoo is a Visiting Professor at Department of Electrical Engineering, National Taipei University of Technology. He is a Co-PI of AI and Robotics Lab, UAEU. His main research interests are deep learning, artificial intelligence, machine learning, computer vision, social robotics, e-health, biomedical engineering, privacy-preserved eldercare, IoT, wearable systems.</p>
                    
-                    <a href="docs/CV.docx" class="down-btn btn-a" download>download cv</a>
+                    <a href="docs/CV_2020.docx" class="down-btn btn-a" download>download cv</a>
 
                 </div>
             </div>
@@ -207,6 +185,81 @@
             </div>
         </div>
         <div class="row">
+            <div class="col-md-4 col-sm-6 project" onclick="togglePopup('popup')">
+               <div class="project-box" style="background-image: url('images/helmet.png');">
+                <ul class="projects">
+                    <span class="after"></span>
+                    <span class="before"></span>
+                    <div class="project-content">
+                        <h4><strong>2020 - 2021</strong></h4>
+                        <br>
+                        <p><strong>Safery helmet wearing detection, UAE</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="popup-pro" id="popup">
+                <div class="overlay-pro"></div>
+                <div class="content-pro">
+                    <div class="close-btnpro" onclick="togglePopup('popup')">&times;</div>
+                        <p>It is important to have an automatic system to
+                            check if the workers/visitors are wearing the
+                            safety helmet to reduce fatalities and injuries at
+                            construction sites and factories. However, there
+                            are not many or sufficient dataset for safety helmet
+                            detection, except the one dataset named ”Safety
+                            Helmet Detection” in Kaggle. The dataset has
+                            5000 images with 3 object labels (person, helmet,
+                            head), but most of the images are incompletely
+                            labeled. To create a good real-time safety helmet
+                            detection model, we added 3 more objects and
+                            labeled all 5000 images (offered here). The experimental
+                            results show significant improvements
+                            in mAPs, comparison results and discussion are
+                            provided on YOLOv3, YOLOv4 and YOLOv5
+                            models. Moreover, real-time safety helmet detection
+                            is successfully achieved on sample videos
+                            from YouTube.</p>
+                        <img src="images/helmet.png">
+                        <img src="images/helmet2.png">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 project" onclick="togglePopup('pro2')">
+               <div class="project-box" style="background-image: url('images/arabic_sign.png');">
+                <ul class="projects">
+                    <span class="after"></span>
+                    <span class="before"></span>
+                    <div class="project-content">
+                        <h4>2020 - 2021</h4>
+                        <br>
+                        <p>Arabic sign language regocnition, UAE</p>
+                    </div>
+                </div>
+            </div>
+            <div class="popup-pro" id="pro2">
+                <div class="overlay-pro"></div>
+                <div class="content-pro">
+                    <div class="close-btnpro" onclick="togglePopup('pro2')">&times;</div>
+                        <p>It is complicated for the people with speech impairment
+                            to make a relationship with social majority,
+                            which naturally demands an automatic sign
+                            language translation systems. There are plenty of
+                            proposed methods and datasets for English sign
+                            language, but it is very limited for Arabic sign language.
+                            Therefore, we present our collected and
+                            labeled Arabic Sign Language Alphabet Dataset
+                            (ASLAD) consisting of 14400 images of 32 signs
+                            (offered here) collected from 50 people. We provide
+                            the analysis of performance of state-of-theart
+                            object detection models on ASLAD. Moreover,
+                            the successful real-time detection of Arabic signs
+                            are achieved on the sample videos from YouTube.
+                            Finally, we believe, ASLAD will offer an opportunity
+                            to experiment and develop automated systems
+                            for the people with hearing disabilities using
+                            computer vision and deep learning models.</p>
+                        <img src="images/sign.png">
+                </div>
+            </div>
             <div class="col-md-4 col-sm-6 project">
                 <div class="project-box">
                 <ul class="projects">
