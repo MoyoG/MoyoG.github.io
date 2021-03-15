@@ -192,7 +192,8 @@ img {
 .popup-pro .content-pro {
 
   position:absolute;
-  top:200%;
+  
+  top:250%;
   left:50%;
   transform:translate(-50%,50%) scale(0);
   background:#fff;
@@ -251,7 +252,7 @@ img {
  
 .popup .content-pub {
   position:absolute;
-  top:50%;
+  /*top:50%;*/
   left:50%;
   transform:translate(-50%,-50%) scale(0);
   background:#fff;
