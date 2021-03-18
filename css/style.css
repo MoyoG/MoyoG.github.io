@@ -559,6 +559,28 @@ div.bibinfo pre { clear:both; }
 .proj-video{
     padding-bottom: 30px;
 }
+.proj-member{
+    padding-bottom: 30px;
+}
+.proj-mtitle h3 {
+    padding-bottom: 5px;
+    border-style: solid;
+    border-left: 2px;
+    border-top: 2px;
+    border-right: 2px;
+    border-color: #555;
+}
+.proj-mem-peoples{
+    column-count: 2;
+}
+.proj-mem2{
+    width: 100%;
+    padding: 15px;
+}
+.proj-mem2 img{
+    width: 20%;
+    border-radius: 50px;
+}
 /*---------show slider end -------*/
 
 
