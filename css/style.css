@@ -578,7 +578,8 @@ div.bibinfo pre { clear:both; }
     padding: 15px;
 }
 .proj-mem2 img{
-    width: 20%;
+    width: 92.5px;
+    height: 92.5px;
     border-radius: 50%;
 }
 /*---------show slider end -------*/
