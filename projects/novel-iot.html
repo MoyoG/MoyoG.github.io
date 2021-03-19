@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--meta tags-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Robin is a Personal Portfolio Template">
+    <meta name="keywords" content="mourithemes, onepage, developer, resume, cv, personal, portfolio, personal resume, clean, modern">
+    <meta name="author" content="MouriTheme">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Template name-->
+    <title>Munkhjargal - Personal Portfolio</title>
+
+    
+    <!--Font Awesome css-->
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+
+    <!--Bootstrap css-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <!--Animated headline css-->
+    <link rel="stylesheet" href="../css/jquery.animatedheadline.css">
+
+    <!--Owl carousel css-->
+    <link rel="stylesheet" href="../css/owl.carousel.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.css">
+
+    <!--Magnific popup css-->
+    <link rel="stylesheet" href="../css/magnific-popup.css">
+
+    <!--line icon css-->
+    <link rel="stylesheet" href="../css/line-icons.min.css">
+
+    <!--Theme css-->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!--Responsive css-->
+    <link rel="stylesheet" href="../css/responsive.css">
+
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script src="../cv.js"></script> 
+</head>
+<body>
+
+<!--Preloader starts-->
+
+<div class="loader_bg"><div class="loader"></div></div>
+
+<!--Preloader ends-->
+
+<!--Navigation area starts-->
+
+<!--Navigation area starts-->
+
+<header class="nav-area navbar-fixed-top">
+    <div class="container">
+        <div class="row">
+            <!--main menu starts-->
+
+            <div class="col-md-12">
+                <div class="main-menu">
+                    <div class="navbar navbar-cus">
+                        <div class="navbar-header">
+                            <a href="../index.html" class="navbar-brand"><span class="logo">Moyo</span></a> 
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+
+                        <div class="navbar-collapse collapse">
+                            <nav >
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li><a href="../index.html#home"><span data-hover>Home</span></a></li>
+                                    <li><a href="../index.html#about"><span data-hover>Bio</span></a></li>  
+                                    <li><a href="../cv.html"><span data-hover>CV</span></a></li>                     
+                                    <li class="active"><a href="../index.html#project"><span data-hover>Projects</span></a></li>
+                                    <li><a href="../pub.html"><span data-hover>Publications</span></a></li>
+                                    <li><a href="../index.html#resume"><span data-hover>Experience</span></a></li> 
+                                    <li><a href="../index.html#people"><span data-hover>People</span></a></li>                                   
+                                    <li><a href="../index.html#contact"><span data-hover>Contact</span></a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--main menu ends-->
+        </div>
+    </div>
+</header>
+<div class="banner-area-cv" id="cv">
+    <div class="banner-table">
+        <div class="banner-table-cell">
+        </div>
+    </div>
+</div>
+
+<div class="slideww">
+    <div class="slider">
+        
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <div class="slide first">
+                <img src="images/novel-iot2.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/novel-iot.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/novel-iot3.jfif" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/novel-iot2.png" alt="">
+            </div>
+            <!-- auto navigation start-->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+            <!-- auto navigation end-->
+        </div>
+        <div class="navigation-manual">
+            <label for='radio1' class="manual-btn"></label>
+            <label for='radio2' class="manual-btn"></label>
+            <label for='radio3' class="manual-btn"></label>
+            <label for='radio4' class="manual-btn"></label>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var counter =1
+        setInterval(function(){
+            document.getElementById('radio'+counter).checked= true;
+            counter++;
+            if(counter > 4){
+                counter=1;
+            }
+        },3000);
+    </script>
+</div>
+<div class="text2">
+    <div class="text2-title">
+        <h3><b>Novel IoT-Based Privacy-Preserving Yoga Posture Recognition System Using Low-Resolution Infrared Sensors and Deep Learning 
+            </b></h3> IEEE Internet of Things Journal, 2019
+
+    </div>
+    <p>In recent years, the number of yoga practitioners has been drastically increased and there are more men and older
+        people practice yoga than ever before. Internet of Things (IoT)-based yoga training system is needed for those who want to practice yoga at home. Some studies have proposed RGB/Kinect camera-based or wearable device-based yoga posture recognition methods with a high accuracy; however, the former has a privacy issue and the latter is impractical in the long-term application. Thus, this paper proposes an IoT-based privacy-preserving yoga posture recognition system employing a deep convolutional neural network (DCNN) and a low-resolution infrared sensor based wireless sensor network (WSN). The WSN has three nodes (x, y, and z-axes) where each integrates 8×8 pixels’ thermal sensor module and a Wi-Fi module for connecting the deep learning server. We invited 18 volunteers to perform 26 yoga postures for
+        two sessions each lasted for 20 s. First, recorded sessions are saved as .csv files, then preprocessed and converted to grayscale posture images. Totally, 93 200 posture images are employed for the validation of the proposed DCNN models. The tenfold cross-validation results revealed that F1-scores of the models trained with xyz (all 3-axes) and y (only y-axis) posture images were 0.9989 and 0.9854, respectively. An average latency for a single posture image classification on the server was 107 ms. Thus, we conclude that the proposed IoT-based yoga posture recognition system has a great potential in the privacy-preserving yoga training system.
+        
+    </p>
+    <div class="text2-title">
+        <div class="proj-mtitle">
+            <h3><b>Experimental result</b></h3>
+        </div>
+        <h4><b>Link:</b><a href="https://ieeexplore.ieee.org/abstract/document/8707064" target="_blank"> https://ieeexplore.ieee.org/abstract/document/8707064 </a></h4>
+        <h4><b>Result:</b></h4>
+        <p>Table III represents the tenfold cross-validation results by
+            the six measures in which the values are the average values
+            of ten classifiers. The classifiers are trained with xyz posture
+            images which are the concatenation of x, y, and z-axes and thus
+            have the size of 24 × 8 pixels. The highest values are highlighted in Table III. According to Table III, obviously all the
+            yoga postures are recognized with extremely high rates. The
+            average value of precision, recall, specificity, F1-score, accuracy for all the yoga postures were 0.99889, 0.99889, 0.99996,
+            0.99889, and 0.99991, respectively. The average latency was
+            110 ms for all the yoga postures. The lowest (0.99472) F1-score was for Sleeping hero and
+            the highest (1.0) F1-scores were for Half-moon and Warrior II.
+            Recall was the best among the four (precision, recall, specificity, and F1-score) measures because 6 postures had the
+            highest (1.0) value and the lowest value was 0.99457 for
+            Corp. The highest precision and specificity rates were 1.0 for
+            Half-moon, Standing head to knee, Warrior I, and Warrior II,
+            respectively. The average TP, FN, FP, and TN were 357.7, 0.4,
+            0.4, and 8951.5, respectively.
+            </p>
+            <img src="images/novel-iot-result.png" alt="" style="width: 50%; position: relative; left: 25%;">
+    </div>
+    <div class="proj-member">
+        <div class="proj-mtitle">
+            <h3><b>Project members</b></h3>
+        </div>
+        <div class="proj-mem-peoples">
+            <div class="proj-mem2">
+                <img src="../images/moyo.jpg" alt="">
+                <a href="https://moyog.github.io/index.html#home" target="_blank">Munkhjargal Gochoo</a>
+            </div>
+            <div class="proj-mem2">
+                <img src="../images/Shih-Chia Huang.jpg" alt="">
+                <a href="https://myweb.ntut.edu.tw/~schuang/" target="_blank">Shih-Chia Huang</a>
+            </div>
+            <div class="proj-mem2">
+                <img src="../images/Jun-Wei-Hsieh.jpg" alt="">
+                <a href="https://cse.ntou.edu.tw/p/412-1063-7791.php?Lang=en" target="_blank">Jun-Wei Hsieh</a>
+            </div>
+            <div class="proj-mem2">
+                <img src="../images/yung-fu chen.jpg" alt="">
+                <a href="https://scholar.nctu.edu.tw/en/persons/yung-fu-chen" target="_blank">Yung-Fu Chen</a>
+            </div>
+            <div class="proj-mem2">
+                <img src="../images/tan-hsu tan.jpg" alt="">
+                <a href="https://www.ee.ntut.edu.tw/English/teacher/teacher2.php?tsn=43" target="_blank">Tan-Hsu Tan</a>
+            </div>
+            <div class="proj-mem2">
+                <img src="../images/no_phot.jpg" alt="">
+                <a href="https://www.researchgate.net/profile/Tsedevdorj-Batjargal" target="_blank">Tsedevdorj Batjargal</a>
+            </div>
+            <div class="proj-mem2">
+                <img src="../images/fady.jfif" alt="">
+                <a href="https://fady6922445.wixsite.com/irilab" target="_blank">Fady Alnajjar</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<!--Latest version JQuery-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+
+<!--Bootstrap js-->
+<script src="../js/bootstrap.min.js"></script>
+
+<!--Animated headline js-->
+<script src="../js/jquery.animatedheadline.js"></script>
+
+<!--Magnific popup js-->
+<script src="../js/jquery.magnific-popup.js"></script>
+<script src="../js/custom.js"></script>
+
+<!--Validator js-->
+
+<!--Counter up js-->
+<script src="../js/jquery.counterup.min.js"></script>
+
+<!--imagesloaded js-->
+<script src="../js/imagesloaded.min.js"></script>
+
+<!--Owl Carousel js-->
+<script src="../js/owl.carousel.js"></script>
+
+<!--Validator js-->
+<script src="../js/validator.js"></script>
+
+<!--Contact js-->
+<script src="../js/contact.js"></script>
+
+<!--Contact js-->
+<script src="../js/letters-type.js"></script>
+
+<!--Main js-->
+<script src="../js/main.js"></script>
+</body>
+</html>

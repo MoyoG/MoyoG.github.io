@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--meta tags-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Robin is a Personal Portfolio Template">
+    <meta name="keywords" content="mourithemes, onepage, developer, resume, cv, personal, portfolio, personal resume, clean, modern">
+    <meta name="author" content="MouriTheme">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Template name-->
+    <title>Munkhjargal - Personal Portfolio</title>
+
+    
+    <!--Font Awesome css-->
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+
+    <!--Bootstrap css-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <!--Animated headline css-->
+    <link rel="stylesheet" href="../css/jquery.animatedheadline.css">
+
+    <!--Owl carousel css-->
+    <link rel="stylesheet" href="../css/owl.carousel.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.css">
+
+    <!--Magnific popup css-->
+    <link rel="stylesheet" href="../css/magnific-popup.css">
+
+    <!--line icon css-->
+    <link rel="stylesheet" href="../css/line-icons.min.css">
+
+    <!--Theme css-->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!--Responsive css-->
+    <link rel="stylesheet" href="../css/responsive.css">
+
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script src="../cv.js"></script> 
+</head>
+<body>
+
+<!--Preloader starts-->
+
+<div class="loader_bg"><div class="loader"></div></div>
+
+<!--Preloader ends-->
+
+<!--Navigation area starts-->
+
+<!--Navigation area starts-->
+
+<header class="nav-area navbar-fixed-top">
+    <div class="container">
+        <div class="row">
+            <!--main menu starts-->
+
+            <div class="col-md-12">
+                <div class="main-menu">
+                    <div class="navbar navbar-cus">
+                        <div class="navbar-header">
+                            <a href="../index.html" class="navbar-brand"><span class="logo">Moyo</span></a> 
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+
+                        <div class="navbar-collapse collapse">
+                            <nav >
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li><a href="../index.html#home"><span data-hover>Home</span></a></li>
+                                    <li><a href="../index.html#about"><span data-hover>Bio</span></a></li>  
+                                    <li><a href="../cv.html"><span data-hover>CV</span></a></li>                     
+                                    <li class="active"><a href="../index.html#project"><span data-hover>Projects</span></a></li>
+                                    <li><a href="../pub.html"><span data-hover>Publications</span></a></li>
+                                    <li><a href="../index.html#resume"><span data-hover>Experience</span></a></li> 
+                                    <li><a href="../index.html#people"><span data-hover>People</span></a></li>                                   
+                                    <li><a href="../index.html#contact"><span data-hover>Contact</span></a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--main menu ends-->
+        </div>
+    </div>
+</header>
+<div class="banner-area-cv" id="cv">
+    <div class="banner-table">
+        <div class="banner-table-cell">
+        </div>
+    </div>
+</div>
+
+<div class="slideww">
+    <div class="slider">
+        
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <div class="slide first">
+                <img src="images/device-free.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/device-free.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/device-free.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/device-free.png" alt="">
+            </div>
+            <!-- auto navigation start-->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+            <!-- auto navigation end-->
+        </div>
+        <div class="navigation-manual">
+            <label for='radio1' class="manual-btn"></label>
+            <label for='radio2' class="manual-btn"></label>
+            <label for='radio3' class="manual-btn"></label>
+            <label for='radio4' class="manual-btn"></label>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var counter =1
+        setInterval(function(){
+            document.getElementById('radio'+counter).checked= true;
+            counter++;
+            if(counter > 4){
+                counter=1;
+            }
+        },3000);
+    </script>
+</div>
+<div class="text2">
+    <div class="text2-title">
+        <h3><b>Device-Free Non-Privacy Invasive Classification of Elderly Travel Patterns in a Smart House Using PIR Sensors and DCNN
+            </b></h3> IEEE Sensors Journal, 2018
+
+    </div>
+    <p>Single resident life style is increasing among the elderly due to the issues of elderly care cost and privacy invasion.
+        However, the single life style cannot be maintained if they have dementia. Thus, the early detection of dementia is crucial.
+        Systems with wearable devices or cameras are not preferred choice for the long-term monitoring. Main intention of this
+        paper is to propose deep convolutional neural network (DCNN) classifier for indoor travel patterns of elderly people living alone using open data set collected by device-free non-privacy invasive binary (passive infrared) sensor data. Travel patterns are classified as direct, pacing, lapping, or random according to Martino–Saltzman (MS) model. MS travel pattern is highly related with person’s cognitive state, and thus can be used to detect early stage of dementia. We have utilized an open data set that was presented by Center for Advanced Studies in Adaptive Systems project, Washington State University. The data set was collected by monitoring a cognitively normal elderly person by wireless passive infrared sensors for 21 months. First, 117 320 travel episodes are extracted from the data set and classified by MS travel pattern classifier algorithm for the ground truth. Later, 12 000 episodes (3000 for each pattern) were randomly selected from the total episodes to compose training and testing data set. Finally, DCNN performance was compared with seven
+        other classical machine-learning classifiers. The random forest and DCNN yielded the best classification accuracies of 94.48% and 97.84%, respectively. Thus, the proposed DCNN classifier can be used to infer dementia through travel pattern matching.
+        
+    </p>
+    <div class="proj-member">
+        <div class="proj-mtitle">
+            <h3><b>Project members</b></h3>
+        </div>
+        <div class="proj-mem-peoples">
+            <div class="proj-mem2">
+                <img src="../images/moyo.jpg" alt="">
+                <a href="https://moyog.github.io/index.html#home" target="_blank">Munkhjargal Gochoo</a>
+            </div>
+            <div class="proj-mem2">
+                <img src="../images/Vijayalakshmi Velusamy.gif" alt="">
+                <a href="https://ieeexplore.ieee.org/author/37394755400" target="_blank">Vijayalakshmi Velusamy</a>
+            </div>
+            <div class="proj-mem2">
+                <img src="../images/damdinduren bayanduuren.gif" alt="">
+                <a href="https://ieeexplore.ieee.org/author/37085739175" target="_blank">Damdinsuren Bayanduuren</a>
+            </div>
+            <div class="proj-mem2">
+                <img src="../images/tan-hsu tan.jpg" alt="">
+                <a href="https://www.ee.ntut.edu.tw/English/teacher/teacher2.php?tsn=43" target="_blank">Tan-Hsu Tan</a>
+            </div>
+            <div class="proj-mem2">
+                <img src="../images/Shing-Hong Liu.gif" alt="">
+                <a href="https://ieeexplore.ieee.org/author/37086227403" target="_blank">Shing-Hong Liu</a>
+            </div>
+            <div class="proj-mem2">
+                <img src="../images/Shih-Chia Huang.jpg" alt="">
+                <a href="https://myweb.ntut.edu.tw/~schuang/" target="_blank">Shih-Chia Huang</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<!--Latest version JQuery-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+
+<!--Bootstrap js-->
+<script src="../js/bootstrap.min.js"></script>
+
+<!--Animated headline js-->
+<script src="../js/jquery.animatedheadline.js"></script>
+
+<!--Magnific popup js-->
+<script src="../js/jquery.magnific-popup.js"></script>
+<script src="../js/custom.js"></script>
+
+<!--Validator js-->
+
+<!--Counter up js-->
+<script src="../js/jquery.counterup.min.js"></script>
+
+<!--imagesloaded js-->
+<script src="../js/imagesloaded.min.js"></script>
+
+<!--Owl Carousel js-->
+<script src="../js/owl.carousel.js"></script>
+
+<!--Validator js-->
+<script src="../js/validator.js"></script>
+
+<!--Contact js-->
+<script src="../js/contact.js"></script>
+
+<!--Contact js-->
+<script src="../js/letters-type.js"></script>
+
+<!--Main js-->
+<script src="../js/main.js"></script>
+</body>
+</html>
