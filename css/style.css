@@ -258,7 +258,7 @@ img {
   transform:translate(-50%,-50%) scale(0);
   background:#fff;
   width:600px;
-  z-index:2;
+  z-index:1;
   text-align:left;
   padding:20px;
   box-sizing:border-box;
@@ -392,15 +392,15 @@ span.undefined { color:red; }
 .techreport { background-color: #b77; }
 .legend .pub { width: 10px; height: 10px; display: inline-block; margin: 0 5px 0 15px;}
 .legend { margin-bottom: 20px; text-align: center; width: 100%;}
-table.display thead th { padding: 3px 18px 3px 10px; border-bottom: 1px solid black; border-top: 1px solid black; font-weight: bold; cursor: pointer; cursor: hand; }
+table.display thead th { padding: 3px 18px 3px 10px; border-bottom: 1px solid black; /*border-top: 1px solid black;*/ font-weight: bold; cursor: pointer; cursor: hand; }
 table.display tfoot th { padding: 3px 10px; border-top: 1px solid black; font-weight: bold; }
 table.display td { padding: 3px 10px; }
 table.display td.center { text-align: center; }
 .sorting_asc { background: url('../images/sort_asc.png') no-repeat center right; }
 .sorting_desc { background: url('../images/sort_desc.png') no-repeat center right; }
-.sorting { background: url('images/sort_both.png') no-repeat center right; }
-.sorting_asc_disabled { background: url('images/sort_asc_disabled.png') no-repeat center right; }
-.sorting_desc_disabled { background: url('images/sort_desc_disabled.png') no-repeat center right; }
+.sorting { background: url('../images/sort_both.png') no-repeat center right; }
+.sorting_asc_disabled { background: url('../images/sort_asc_disabled.png') no-repeat center right; }
+.sorting_desc_disabled { background: url('../images/sort_desc_disabled.png') no-repeat center right; }
 tr.odd { background-color: #eee; }
 tr.even { background-color: white; }
 div.hidden { display: none;}
@@ -419,9 +419,11 @@ div.bibinfo pre { clear:both; }
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 100%;
+    height: 300px;
     cursor: pointer;
 }
 .people-card img{
+    height: 70%;
     border-radius: 15px;
 }
 .people-card:hover{
@@ -559,6 +561,8 @@ div.bibinfo pre { clear:both; }
 .proj-video{
     padding-bottom: 30px;
 }
+
+
 .proj-member{
     padding-bottom: 30px;
 }
@@ -582,10 +586,170 @@ div.bibinfo pre { clear:both; }
     height: 92.5px;
     border-radius: 50%;
 }
+
+
+
+.proj-member-in{
+    width: 100%;
+    margin-top: 60px;
+    padding-bottom: 30px;
+}
+.proj-mtitle-in h3 {
+    color: #00B0DC;
+    padding-bottom: 5px;
+    border-style: solid;
+    border-left: 2px;
+    border-top: 2px;
+    border-right: 2px;
+    border-color: #555;
+}/*
+.proj-mem-peoples-in{
+
+}*/
+
+.proj-mem2-in{
+    width: 100%;
+    padding: 5px;
+    float: left;
+}
+.proj-mem2-in img{
+    width: 92.5px;
+    height: 92.5px;
+    border-radius: 50%;
+    float: left;
+}
+.proj-mem2-name{
+    margin-left: 5px;
+    width: 70%;
+    float: left;
+
+}
+.proj-mem2-namea{
+    font-size: 16px;
+    width: 100%;
+    border-bottom: 1px solid #555;
+}
+.proj-mem2-nameb{
+    font-size: 12px;
+    width: 100%;
+    margin-top: 5px;
+}
+.proj-mem2-nameb a{
+    color: #000;
+}
 /*---------show slider end -------*/
 
 
+/*------category area start -----------*/
+.mytabs {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    position:relative;
+    left: 20%;
+    padding-top: 10px;
+}
+.mytabs .cate-div {
+    width: 100%;
+    list-style: none;
+    border-bottom: 1px solid #bbb;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+.mytabs ul li {
+    display: inline;
+}
+.mytabs ul li .category-button{
+    display: inline-block;
+    height: 38px;
+    padding: 0 30px;
+    color: #555;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border-radius: 4px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: -1px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.mytabs ul li .category-button:hover{
+    border-color: #000;
+    border-bottom-color:#bbb;
+}
+.mytabs ul li .category-button.active{
+    border-color: #000;
+    border-bottom: 1px solid #fff;
+    color: #000;
+    font-weight: 600;
+}
+.mytabs .dataTable_wrapper #selected-papers{
+    display: none;
+}
+.mytabs .dataTable_wrapper #DL-papers{
+    display: none;
+}
+.mytabs .dataTable_wrapper #Elder-papers{
+    display: none;
+}
+.mytabs .dataTable_wrapper #embedded-papers{
+    display: none;
+}
+/*
 
+.cat-area ul .cat-nav{
+    list-style: none;
+    border-bottom: 1px solid #bbb;
+    padding-left: 5px;
+}
+.cat-area .cat-nav li{
+    position:relative;
+    display: block;
+    cursor: pointer;
+    border-radius: 8px 8px 0 0;
+}
+.cat-area .ul .cat-nav li .cat-button{
+    font-size: 13px;
+    font-weight: 500;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: -1px;
+    border-bottom: none;
+}
+.ul.cat-nav li:active .cat-button{
+    border-bottom: 1px solid #fff;
+    color: #000;
+    font-weight: 600;
+}
+
+.cat-button{
+    display: inline-block;
+    height: 38px;
+    padding:0 30px;
+    color: #555;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box;
+}*/
+/*-------category area ends------------*/
 
 
 
@@ -656,8 +820,11 @@ div.bibinfo pre { clear:both; }
 
 .resume .title {
   margin-bottom: 20px;
-  column-count: 2;
 }
+.resume .title-ab {
+    margin-bottom: 20px;
+    column-count: 2;
+  }
 .resume .resume_left .bold {
   color: #fff;
 }
