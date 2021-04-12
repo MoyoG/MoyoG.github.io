@@ -58,6 +58,11 @@ p {
     line-height:1.8;
     text-align: justify;
 }
+.end-area{
+    letter-spacing: 0;
+    line-height:1.8;
+    text-align: center; 
+}
 
 a{
     text-decoration: none;
