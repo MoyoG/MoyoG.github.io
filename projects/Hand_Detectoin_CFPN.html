@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--meta tags-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Robin is a Personal Portfolio Template">
+    <meta name="keywords" content="mourithemes, onepage, developer, resume, cv, personal, portfolio, personal resume, clean, modern">
+    <meta name="author" content="MouriTheme">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Template name-->
+    <title>Munkhjargal - Personal Portfolio</title>
+
+    
+    <!--Font Awesome css-->
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+
+    <!--Bootstrap css-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <!--Animated headline css-->
+    <link rel="stylesheet" href="../css/jquery.animatedheadline.css">
+
+    <!--Owl carousel css-->
+    <link rel="stylesheet" href="../css/owl.carousel.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.css">
+
+    <!--Magnific popup css-->
+    <link rel="stylesheet" href="../css/magnific-popup.css">
+
+    <!--line icon css-->
+    <link rel="stylesheet" href="../css/line-icons.min.css">
+
+    <!--Theme css-->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!--Responsive css-->
+    <link rel="stylesheet" href="../css/responsive.css">
+
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script src="../cv.js"></script> 
+</head>
+<body>
+
+<!--Preloader starts-->
+
+<div class="loader_bg"><div class="loader"></div></div>
+
+<!--Preloader ends-->
+
+<!--Navigation area starts-->
+
+<!--Navigation area starts-->
+
+<header class="nav-area navbar-fixed-top">
+    <div class="container">
+        <div class="row">
+            <!--main menu starts-->
+
+            <div class="col-md-12">
+                <div class="main-menu">
+                    <div class="navbar navbar-cus">
+                        <div class="navbar-header">
+                            <a href="../index.html" class="navbar-brand"><span class="logo">Moyo</span></a> 
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+
+                        <div class="navbar-collapse collapse">
+                            <nav >
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li><a href="../index.html#home"><span data-hover>Home</span></a></li>
+                                    <li><a href="../index.html#about"><span data-hover>Bio</span></a></li>  
+                                    <li><a href="../cv.html"><span data-hover>CV</span></a></li>                     
+                                    <li class="active"><a href="../index.html#project"><span data-hover>Projects</span></a></li>
+                                    <li><a href="../pub.html"><span data-hover>Publications</span></a></li>
+                                    <li><a href="../index.html#resume"><span data-hover>Experience</span></a></li> 
+                                    <li><a href="../index.html#people"><span data-hover>People</span></a></li>                                   
+                                    <li><a href="../index.html#contact"><span data-hover>Contact</span></a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--main menu ends-->
+        </div>
+    </div>
+</header>
+<div class="banner-area-cv" id="cv">
+    <div class="banner-table">
+        <div class="banner-table-cell">
+        </div>
+    </div>
+</div>
+
+<div class="slideww">
+    <div class="slider">
+        
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <div class="slide first">
+                <img src="images/hand-1.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/hand-2.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/hand-3.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/hand-4.png" alt="">
+            </div>
+            <!-- auto navigation start-->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+            <!-- auto navigation end-->
+        </div>
+        <div class="navigation-manual">
+            <label for='radio1' class="manual-btn"></label>
+            <label for='radio2' class="manual-btn"></label>
+            <label for='radio3' class="manual-btn"></label>
+            <label for='radio4' class="manual-btn"></label>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var counter =1
+        setInterval(function(){
+            document.getElementById('radio'+counter).checked= true;
+            counter++;
+            if(counter > 4){
+                counter=1;
+            }
+        },3000);
+    </script>
+</div>
+<div class="text2">
+    <div class="text2-title">
+        <h3><b>Deep Real-time Hand Detectoin Using CFPN on Embedded Systems</b></h3>
+    </div>
+    <p>Real-time HI (Human Interface) systems need accurate and efficient hand detection models to meet the limited resources in budget, dimension, memory, computing, and electric power. In recent years, object detection became a less challenging task with the latest deep CNN-based state-of-the-art models, i.e., RCNN, SSD, and YOLO; however, these models cannot provide the desired efficiency and accuracy for HI systems on embedded devices due to their complex time-consuming architecture. In addition, the detection of small hands (30x30 pixels) is still a challenging task for all the above existing methods. Thus, we propose a shallow model named Concatenated Feature Pyramid Network (CFPN) to provide above mentioned performance for small hand detection. The superiority of CFPN is confirmed on a HandFlow dataset with mAP:0.5 of 95.6 and FPS of 33 on Nvidia TX2. The COCO dataset is also used to compare with other state- of-the-art method and shows the highest efficiency and accuracy with the proposed CFPN model. Thus we conclude that the proposed model is useful for real-life small hand detection on embedded devices.</p>
+    <div class="proj-video">
+        <div class="text2-title">
+            <div class="proj-mtitle">
+                <h3><b>Experimental result</b></h3>
+            </div>
+            <h4><b>Paper link: </b><a href="https://ieeexplore.ieee.org/abstract/document/9412871?fbclid=IwAR0o_Y3RpxPnY1hrPdhHEomOTlNsYLDsHvU4PcIE6sATvcdUnBW4c-Xs4D4" target="_blank"> Click here </a></h4>
+            <h4><b>Result:</b></h4>
+            <img src="./images/hand-table.png" alt="">
+
+        </div>
+
+    </div>
+    <div class="proj-member">
+        <div class="proj-mtitle">
+            <h3><b>Project members</b></h3>
+        </div>
+        <div class="proj-mem-peoples">
+            <div style="width: 100%">
+                <div class="proj-mem2">
+                    <img src="../images/Pirdiansyah Hendri.jfif" alt="">
+                    <a>Pirdiansyah Hendri</a>
+                </div>  
+            </div>
+            <div style="width: 100%">
+                <div class="proj-mem2">
+                    <img src="../images/Jun-Wei-Hsieh.jpg" alt="">
+                    <a>Jun-Wei Hsieh</a>
+                </div>  
+            </div>
+            <div style="width: 100%">
+                <div class="proj-mem2">
+                    <img src="../images/ping yang chen.png" alt="">
+                    <a>Ping-Yang Chen</a>
+                </div>  
+            </div>
+            <div style="width: 100%">
+                <div class="proj-mem2">
+                    <img src="../images/moyo.jpg" alt="">
+                    <a>Munkhjargal Gochoo</a>
+                </div>  
+            </div>
+            <div style="width: 100%">
+                <div class="proj-mem2">
+                    <img src="../images/Yong-Sheng Chen.jfif" alt="">
+                    <a>Yong-Sheng Chen</a>
+                </div>  
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--Latest version JQuery-->
+<script src="../js/jquery-3.2.1.min.js"></script>
+
+<!--Bootstrap js-->
+<script src="../js/bootstrap.min.js"></script>
+
+<!--Animated headline js-->
+<script src="../js/jquery.animatedheadline.js"></script>
+
+<!--Magnific popup js-->
+<script src="../js/jquery.magnific-popup.js"></script>
+<script src="../js/custom.js"></script>
+
+<!--Validator js-->
+
+<!--Counter up js-->
+<script src="../js/jquery.counterup.min.js"></script>
+
+<!--imagesloaded js-->
+<script src="../js/imagesloaded.min.js"></script>
+
+<!--Owl Carousel js-->
+<script src="../js/owl.carousel.js"></script>
+
+<!--Validator js-->
+<script src="../js/validator.js"></script>
+
+<!--Contact js-->
+<script src="../js/contact.js"></script>
+
+<!--Contact js-->
+<script src="../js/letters-type.js"></script>
+
+<!--Main js-->
+<script src="../js/main.js"></script>
+</body>
+</html>
