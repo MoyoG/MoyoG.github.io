@@ -406,7 +406,7 @@ table.display td.center { text-align: center; }
 .sorting { background: url('../images/sort_both.png') no-repeat center right; }
 .sorting_asc_disabled { background: url('../images/sort_asc_disabled.png') no-repeat center right; }
 .sorting_desc_disabled { background: url('../images/sort_desc_disabled.png') no-repeat center right; }
-tr.odd { background-color: #eee; }
+tr.odd { background-color: #d6d6d6; }
 tr.even { background-color: white; }
 div.hidden { display: none;}
 div.bibinfo { width: 80%; position: fixed; top: 100px; left: 10%; background-color: #bbb; border: 3px solid #fff; padding: 10px; -moz-border-radius:10px; -webkit-border-radius:10px; -o-border-radius:10px; border-radius:10px; z-index: 50;}
