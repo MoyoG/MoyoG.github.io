@@ -29,14 +29,19 @@ function showInfo(data, tableBodyId) {
     } else {
       tr.setAttribute("class", "odd");
     }
+    var a = document.createElement("a");
     var h3 = document.createElement("h4");
     var p = document.createElement("p");
     var p1 = document.createElement("p");
 
+    a.setAttribute("href", articles[i]["link"]);
+    a.setAttribute("target", "_blank");
+    a.setAttribute("class", "paperTitle");
     h3.innerHTML = articles[i]["title"];
     p.innerHTML = articles[i]["authors"];
     p1.innerHTML = articles[i]["publication"];
-    td3.appendChild(h3);
+    a.appendChild(h3);
+    td3.appendChild(a);
     td3.appendChild(p);
     td3.appendChild(p1);
     td1.innerHTML = articles[i]["year"];
