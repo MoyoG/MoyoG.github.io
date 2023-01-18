@@ -1,0 +1,6 @@
+.paperTitle {
+  cursor: pointer;
+}
+.paperTitle h4:hover {
+  color: #558fd1;
+}
