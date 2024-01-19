@@ -7,170 +7,153 @@ function hide(x) {
   q.style.display = "none";
 }
 
-function sortTableyear(id, itab, id2) {
-  var id2 = id2;
-  var itab = itab;
-  var a = itab % 2;
-  var table, rows, switching, i, x, y, shouldSwitch;
-  table = document.getElementById(id);
-  switching = true;
-  rows = table.rows;
-  /*Make a loop that will continue until
-	no switching has been done:*/
-  if (a != 0) {
-    while (switching) {
-      itab = 2;
-      //start by saying: no switching is done:
-      switching = false;
-      rows = table.rows;
-      document.getElementById(id2).className = "sorting_asc";
-      /*Loop through all table rows (except the
-		first, which contains table headers):*/
-      for (i = 1; i < rows.length - 1; i++) {
-        //start by saying there should be no switching:
-        shouldSwitch = false;
-        /*Get the two elements you want to compare,
-		  one from current row and one from the next:*/
-        x = rows[i].getElementsByTagName("TD")[0];
-        y = rows[i + 1].getElementsByTagName("TD")[0];
-        //check if the two rows should switch place:
-        if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
-          //if so, mark as a switch and break the loop:
-          shouldSwitch = true;
-          break;
-        }
-      }
-      if (shouldSwitch) {
-        /*If a switch has been marked, make the switch
-		  and mark that a switch has been done:*/
-        rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
-        switching = true;
-      }
-    }
-  }
-  if (a == 0) {
-    while (switching) {
-      itab = 1;
-      //start by saying: no switching is done:
-      switching = false;
-      rows = table.rows;
-      document.getElementById(id2).className = "sorting_desc";
-      /*Loop through all table rows (except the
-		first, which contains table headers):*/
-      for (i = 1; i < rows.length - 1; i++) {
-        //start by saying there should be no switching:
-        shouldSwitch = false;
-        /*Get the two elements you want to compare,
-		  one from current row and one from the next:*/
-        x = rows[i].getElementsByTagName("TD")[0];
-        y = rows[i + 1].getElementsByTagName("TD")[0];
-        //check if the two rows should switch place:
-        if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
-          //if so, mark as a switch and break the loop:
-          shouldSwitch = true;
-          break;
-        }
-      }
-      if (shouldSwitch) {
-        /*If a switch has been marked, make the switch
-		  and mark that a switch has been done:*/
-        rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
-        switching = true;
-      }
-    }
-  }
-}
+// function sortTableyear(id, itab, id2) {
+//   var id2 = id2;
+//   var itab = itab;
+//   var a = itab % 2;
+//   var table, rows, switching, i, x, y, shouldSwitch;
+//   table = document.getElementById(id);
+//   switching = true;
+//   rows = table.rows;
+//   /*Make a loop that will continue until
+// 	no switching has been done:*/
+//   if (a != 0) {
+//     while (switching) {
+//       itab = 2;
+//       //start by saying: no switching is done:
+//       switching = false;
+//       rows = table.rows;
+//       document.getElementById(id2).className = "sorting_asc";
+//       /*Loop through all table rows (except the
+// 		first, which contains table headers):*/
+//       for (i = 1; i < rows.length - 1; i++) {
+//         //start by saying there should be no switching:
+//         shouldSwitch = false;
+//         /*Get the two elements you want to compare,
+// 		  one from current row and one from the next:*/
+//         x = rows[i].getElementsByTagName("TD")[0];
+//         y = rows[i + 1].getElementsByTagName("TD")[0];
+//         //check if the two rows should switch place:
+//         if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+//           //if so, mark as a switch and break the loop:
+//           shouldSwitch = true;
+//           break;
+//         }
+//       }
+//       if (shouldSwitch) {
+//         /*If a switch has been marked, make the switch
+// 		  and mark that a switch has been done:*/
+//         rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+//         switching = true;
+//       }
+//     }
+//   }
+//   if (a == 0) {
+//     while (switching) {
+//       itab = 1;
+//       //start by saying: no switching is done:
+//       switching = false;
+//       rows = table.rows;
+//       document.getElementById(id2).className = "sorting_desc";
+//       /*Loop through all table rows (except the
+// 		first, which contains table headers):*/
+//       for (i = 1; i < rows.length - 1; i++) {
+//         //start by saying there should be no switching:
+//         shouldSwitch = false;
+//         /*Get the two elements you want to compare,
+// 		  one from current row and one from the next:*/
+//         x = rows[i].getElementsByTagName("TD")[0];
+//         y = rows[i + 1].getElementsByTagName("TD")[0];
+//         //check if the two rows should switch place:
+//         if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+//           //if so, mark as a switch and break the loop:
+//           shouldSwitch = true;
+//           break;
+//         }
+//       }
+//       if (shouldSwitch) {
+//         /*If a switch has been marked, make the switch
+// 		  and mark that a switch has been done:*/
+//         rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+//         switching = true;
+//       }
+//     }
+//   }
+// }
 
-function sortTabletype(id, itype, id2) {
-  var id2 = id2;
-  var itype = itype;
-  var b = itype % 2;
-  var table, rows, switching, i, x, y, shouldSwitch;
-  table = document.getElementById(id);
-  switching = true;
-  rows = table.rows;
+// function sortTabletype(id, itype, id2) {
+//   var id2 = id2;
+//   var itype = itype;
+//   var b = itype % 2;
+//   var table, rows, switching, i, x, y, shouldSwitch;
+//   table = document.getElementById(id);
+//   switching = true;
+//   rows = table.rows;
 
-  /*Make a loop that will continue until
-	no switching has been done:*/
-  if (b != 0) {
-    while (switching) {
-      //start by saying: no switching is done:
-      switching = false;
-      rows = table.rows;
-      document.getElementById(id2).className = "sorting_asc";
-      /*Loop through all table rows (except the
-			first, which contains table headers):*/
-      for (i = 1; i < rows.length - 1; i++) {
-        //start by saying there should be no switching:
-        shouldSwitch = false;
-        /*Get the two elements you want to compare,
-			  one from current row and one from the next:*/
-        x = rows[i].getElementsByTagName("TD")[1];
-        y = rows[i + 1].getElementsByTagName("TD")[1];
-        //check if the two rows should switch place:
-        if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
-          //if so, mark as a switch and break the loop:
-          shouldSwitch = true;
-          break;
-        }
-      }
-      if (shouldSwitch) {
-        /*If a switch has been marked, make the switch
-			  and mark that a switch has been done:*/
-        rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
-        switching = true;
-      }
-    }
-  }
-  if (b == 0) {
-    while (switching) {
-      //start by saying: no switching is done:
-      switching = false;
-      rows = table.rows;
-      document.getElementById(id2).className = "sorting_desc";
-      /*Loop through all table rows (except the
-			first, which contains table headers):*/
-      for (i = 1; i < rows.length - 1; i++) {
-        //start by saying there should be no switching:
-        shouldSwitch = false;
-        /*Get the two elements you want to compare,
-			  one from current row and one from the next:*/
-        x = rows[i].getElementsByTagName("TD")[1];
-        y = rows[i + 1].getElementsByTagName("TD")[1];
-        //check if the two rows should switch place:
-        if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
-          //if so, mark as a switch and break the loop:
-          shouldSwitch = true;
-          break;
-        }
-      }
-      if (shouldSwitch) {
-        /*If a switch has been marked, make the switch
-			  and mark that a switch has been done:*/
-        rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
-        switching = true;
-      }
-    }
-  }
-}
+//   /*Make a loop that will continue until
+// 	no switching has been done:*/
+//   if (b != 0) {
+//     while (switching) {
+//       //start by saying: no switching is done:
+//       switching = false;
+//       rows = table.rows;
+//       document.getElementById(id2).className = "sorting_asc";
+//       /*Loop through all table rows (except the
+// 			first, which contains table headers):*/
+//       for (i = 1; i < rows.length - 1; i++) {
+//         //start by saying there should be no switching:
+//         shouldSwitch = false;
+//         /*Get the two elements you want to compare,
+// 			  one from current row and one from the next:*/
+//         x = rows[i].getElementsByTagName("TD")[1];
+//         y = rows[i + 1].getElementsByTagName("TD")[1];
+//         //check if the two rows should switch place:
+//         if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+//           //if so, mark as a switch and break the loop:
+//           shouldSwitch = true;
+//           break;
+//         }
+//       }
+//       if (shouldSwitch) {
+//         /*If a switch has been marked, make the switch
+// 			  and mark that a switch has been done:*/
+//         rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+//         switching = true;
+//       }
+//     }
+//   }
+//   if (b == 0) {
+//     while (switching) {
+//       //start by saying: no switching is done:
+//       switching = false;
+//       rows = table.rows;
+//       document.getElementById(id2).className = "sorting_desc";
+//       /*Loop through all table rows (except the
+// 			first, which contains table headers):*/
+//       for (i = 1; i < rows.length - 1; i++) {
+//         //start by saying there should be no switching:
+//         shouldSwitch = false;
+//         /*Get the two elements you want to compare,
+// 			  one from current row and one from the next:*/
+//         x = rows[i].getElementsByTagName("TD")[1];
+//         y = rows[i + 1].getElementsByTagName("TD")[1];
+//         //check if the two rows should switch place:
+//         if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+//           //if so, mark as a switch and break the loop:
+//           shouldSwitch = true;
+//           break;
+//         }
+//       }
+//       if (shouldSwitch) {
+//         /*If a switch has been marked, make the switch
+// 			  and mark that a switch has been done:*/
+//         rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+//         switching = true;
+//       }
+//     }
+//   }
+// }
 
-function category(x) {
-  if (x == "all-papers") {
-    document.getElementById("all-papers").style.display = "inline";
-    document.getElementById("featured-papers").style.display = "none";
-    document.getElementById("patents").style.display = "none";
-  }
-  if (x == "featured-papers") {
-    document.getElementById("all-papers").style.display = "none";
-    document.getElementById("featured-papers").style.display = "inline";
-    document.getElementById("patents").style.display = "none";
-  }
-  if (x == "patents") {
-    document.getElementById("all-papers").style.display = "none";
-    document.getElementById("featured-papers").style.display = "none";
-    document.getElementById("patents").style.display = "inline";
-  }
-}
 function togglePopup(x) {
   document.getElementById(x).classList.toggle("active");
 }

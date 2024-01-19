@@ -181,3 +181,21 @@ function sortPatents(data) {
   }
   return patents;
 }
+
+function category(x) {
+  if (x == "all-papers") {
+    document.getElementById("all-papers").style.display = "inline";
+    document.getElementById("featured-papers").style.display = "none";
+    document.getElementById("patents").style.display = "none";
+  }
+  if (x == "featured-papers") {
+    document.getElementById("all-papers").style.display = "none";
+    document.getElementById("featured-papers").style.display = "inline";
+    document.getElementById("patents").style.display = "none";
+  }
+  if (x == "patents") {
+    document.getElementById("all-papers").style.display = "none";
+    document.getElementById("featured-papers").style.display = "none";
+    document.getElementById("patents").style.display = "inline";
+  }
+}
