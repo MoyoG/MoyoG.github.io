@@ -1,0 +1,23 @@
+Unobtrusive activity recognition of elderly people living alone using anonymous binary sensors and DCNN
+Performance evaluation of deep CNN-based crack detection and localization techniques for concrete structures
+Novel IoT-based privacy-preserving yoga posture recognition system using low-resolution infrared sensors and deep learning
+Device-free non-privacy invasive classification of elderly travel patterns in a smart house using PIR sensors and DCNN
+Multi-resident activity recognition in a smart home using RGB activity image and DCNN
+Robots, AI, and cognitive training in an era of mass age-related cognitive decline: a systematic review
+At the dawn of science, technology, engineering, arts, and mathematics (STEAM) education: Prospects, priorities, processes, and problems
+Front-door event classification algorithm for elderly people living alone in smart house using wireless binary sensors
+Improved global motion estimation via motion vector clustering for video stabilization
+Indoor activity monitoring system for elderly using RFID and Fitbit Flex wristband
+SHEL5K: an extended dataset and benchmarking for safety helmet detection
+ArSL21L: Arabic Sign Language Letter Dataset Benchmarking and an Educational Avatar for Metaverse Applications
+Novel Spatio-Temporal Continuous Sign Language Recognition Using an Attentive Multi-Feature Network
+Arm motion sensor system
+Mixed Stage Partial Network and Background Data Augmentation for Surveillance Object Detection
+FishEye8K: A Benchmark and Dataset for Fisheye Camera Object Detection
+Fisheye Multiple Object Tracking by Learning Distortions Without Dewarping
+Robotic assistive and rehabilitation devices leading to motor recovery in upper limb: a systematic review
+Light-weight mixed stage partial network for surveillance object detection with background data augmentation
+Deep real-time hand detectoin using CFPN on embedded systems
+Drone-Based Vehicle Flow Estimation and its Application to Traffic Conflict Hotspot Detection at Intersections
+Lownet: Privacy preserved ultra-low resolution posture image classification
+Smaller object detection for real-time embedded traffic flow estimation using fish-eye cameras

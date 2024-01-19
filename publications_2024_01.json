@@ -1,0 +1,1229 @@
+{
+  "search_metadata": {
+    "id": "65aa2f22b7b1cc3f60f9b9e9",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/f1ee30ae884f850a/65aa2f22b7b1cc3f60f9b9e9.json",
+    "created_at": "2024-01-19 08:13:22 UTC",
+    "processed_at": "2024-01-19 08:13:22 UTC",
+    "google_scholar_author_url": "https://scholar.google.com/citations?user=TJh4iVUAAAAJ&hl=en&pagesize=100",
+    "raw_html_file": "https://serpapi.com/searches/f1ee30ae884f850a/65aa2f22b7b1cc3f60f9b9e9.html",
+    "total_time_taken": 0.69
+  },
+  "search_parameters": {
+    "engine": "google_scholar_author",
+    "author_id": "TJh4iVUAAAAJ",
+    "hl": "en",
+    "num": "100"
+  },
+  "author": {
+    "name": "Munkhjargal Gochoo (Moyo)",
+    "affiliations": "Assistant Professor, United Arab Emirates University",
+    "email": "Verified email at uaeu.ac.ae",
+    "website": "https://moyog.github.io/",
+    "interests": [
+      {
+        "title": "Deep Machine learning",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:deep_machine_learning",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Adeep_machine_learning"
+      },
+      {
+        "title": "Artificial Intelligence",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:artificial_intelligence",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Aartificial_intelligence"
+      },
+      {
+        "title": "E-health",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:e_health",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Ae_health"
+      },
+      {
+        "title": "telemedicine",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:telemedicine",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Atelemedicine"
+      },
+      {
+        "title": "robotics",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:robotics",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Arobotics"
+      }
+    ],
+    "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=TJh4iVUAAAAJ&citpid=3"
+  },
+  "articles": [
+    {
+      "title": "Performance evaluation of deep CNN-based crack detection and localization techniques for concrete structures",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:4TOpqqG69KYC",
+      "citation_id": "TJh4iVUAAAAJ:4TOpqqG69KYC",
+      "authors": "L Ali, F Alnajjar, HA Jassmi, M Gocho, W Khan, MA Serhani",
+      "publication": "Sensors 21 (5), 1688, 2021",
+      "cited_by": {
+        "value": 156,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15775879226592381435",
+        "serpapi_link": "https://serpapi.com/search.json?cites=15775879226592381435&engine=google_scholar&hl=en",
+        "cites_id": "15775879226592381435"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Unobtrusive activity recognition of elderly people living alone using anonymous binary sensors and DCNN",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:YsMSGLbcyi4C",
+      "citation_id": "TJh4iVUAAAAJ:YsMSGLbcyi4C",
+      "authors": "M Gochoo, TH Tan, SH Liu, FR Jean, FS Alnajjar, SC Huang",
+      "publication": "IEEE journal of biomedical and health informatics 23 (2), 693-702, 2018",
+      "cited_by": {
+        "value": 125,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14830610272307306268",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14830610272307306268&engine=google_scholar&hl=en",
+        "cites_id": "14830610272307306268"
+      },
+      "year": "2018"
+    },
+    {
+      "title": "Novel IoT-based privacy-preserving yoga posture recognition system using low-resolution infrared sensors and deep learning",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:WF5omc3nYNoC",
+      "citation_id": "TJh4iVUAAAAJ:WF5omc3nYNoC",
+      "authors": "M Gochoo, TH Tan, SC Huang, T Batjargal, JW Hsieh, FS Alnajjar, ...",
+      "publication": "IEEE Internet of Things Journal 6 (4), 7192-7200, 2019",
+      "cited_by": {
+        "value": 92,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6933444015537925265",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6933444015537925265&engine=google_scholar&hl=en",
+        "cites_id": "6933444015537925265"
+      },
+      "year": "2019"
+    },
+    {
+      "title": "At the dawn of science, technology, engineering, arts, and mathematics (STEAM) education: Prospects, priorities, processes, and problems",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:NMxIlDl6LWMC",
+      "citation_id": "TJh4iVUAAAAJ:NMxIlDl6LWMC",
+      "authors": "S Belbase, BR Mainali, W Kasemsukpipat, H Tairab, M Gochoo, A Jarrah",
+      "publication": "International Journal of Mathematical Education in Science and Technology 53 \u2026, 2022",
+      "cited_by": {
+        "value": 79,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4516142278080223204",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4516142278080223204&engine=google_scholar&hl=en",
+        "cites_id": "4516142278080223204"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Implementing FDM 3D printing strategies using natural fibers to produce biomass composite",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:0EnyYjriUFMC",
+      "citation_id": "TJh4iVUAAAAJ:0EnyYjriUFMC",
+      "authors": "W Ahmed, F Alnajjar, E Zaneldin, AH Al-Marzouqi, M Gochoo, S Khalid",
+      "publication": "Materials 13 (18), 4065, 2020",
+      "cited_by": {
+        "value": 66,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15918814716507721894",
+        "serpapi_link": "https://serpapi.com/search.json?cites=15918814716507721894&engine=google_scholar&hl=en",
+        "cites_id": "15918814716507721894"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "Multi-resident activity recognition in a smart home using RGB activity image and DCNN",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:W7OEmFMy1HYC",
+      "citation_id": "TJh4iVUAAAAJ:W7OEmFMy1HYC",
+      "authors": "TH Tan, M Gochoo, SC Huang, YH Liu, SH Liu, YF Huang",
+      "publication": "IEEE Sensors Journal 18 (23), 9718-9727, 2018",
+      "cited_by": {
+        "value": 61,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9462774575563169505",
+        "serpapi_link": "https://serpapi.com/search.json?cites=9462774575563169505&engine=google_scholar&hl=en",
+        "cites_id": "9462774575563169505"
+      },
+      "year": "2018"
+    },
+    {
+      "title": "Device-free non-privacy invasive classification of elderly travel patterns in a smart house using PIR sensors and DCNN",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:d1gkVwhDpl0C",
+      "citation_id": "TJh4iVUAAAAJ:d1gkVwhDpl0C",
+      "authors": "M Gochoo, TH Tan, V Velusamy, SH Liu, D Bayanduuren, SC Huang",
+      "publication": "IEEE Sensors Journal 18 (1), 390-400, 2017",
+      "cited_by": {
+        "value": 61,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11583122780040213050",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11583122780040213050&engine=google_scholar&hl=en",
+        "cites_id": "11583122780040213050"
+      },
+      "year": "2017"
+    },
+    {
+      "title": "HF-SPHR: Hybrid features for sustainable physical healthcare pattern recognition using deep belief networks",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:M05iB0D1s5AC",
+      "citation_id": "TJh4iVUAAAAJ:M05iB0D1s5AC",
+      "authors": "M Javeed, M Gochoo, A Jalal, K Kim",
+      "publication": "Sustainability 13 (4), 1699, 2021",
+      "cited_by": {
+        "value": 56,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6809322212023175893",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6809322212023175893&engine=google_scholar&hl=en",
+        "cites_id": "6809322212023175893"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Hand gesture recognition based on auto-landmark localization and reweighted genetic algorithm for healthcare muscle activities",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:2P1L_qKh6hAC",
+      "citation_id": "TJh4iVUAAAAJ:2P1L_qKh6hAC",
+      "authors": "H Ansar, A Jalal, M Gochoo, K Kim",
+      "publication": "Sustainability 13 (5), 2961, 2021",
+      "cited_by": {
+        "value": 47,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6691579731087403491",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6691579731087403491&engine=google_scholar&hl=en",
+        "cites_id": "6691579731087403491"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Ultrasonic assisted functionalization of MWCNT and synergistic electrocatalytic effect of nano-hydroxyapatite incorporated MWCNT-chitosan scaffolds for sensing of nitrofurantoin",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:UebtZRa9Y70C",
+      "citation_id": "TJh4iVUAAAAJ:UebtZRa9Y70C",
+      "authors": "S Velmurugan, S Palanisamy, TCK Yang, M Gochoo, SW Chen",
+      "publication": "Ultrasonics sonochemistry 62, 104863, 2020",
+      "cited_by": {
+        "value": 42,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17935103769140358647",
+        "serpapi_link": "https://serpapi.com/search.json?cites=17935103769140358647&engine=google_scholar&hl=en",
+        "cites_id": "17935103769140358647"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "Robust active shape model via hierarchical feature extraction with SFS-optimized convolution neural network for invariant human age classification",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:ldfaerwXgEUC",
+      "citation_id": "TJh4iVUAAAAJ:ldfaerwXgEUC",
+      "authors": "SA Rizwan, A Jalal, M Gochoo, K Kim",
+      "publication": "Electronics 10 (4), 465, 2021",
+      "cited_by": {
+        "value": 40,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17154007042249412194",
+        "serpapi_link": "https://serpapi.com/search.json?cites=17154007042249412194&engine=google_scholar&hl=en",
+        "cites_id": "17154007042249412194"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Ubiquitous emergency medical service system based on wireless biosensors, traffic information, and wireless communication technologies: development and evaluation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:zYLM7Y9cAGgC",
+      "citation_id": "TJh4iVUAAAAJ:zYLM7Y9cAGgC",
+      "authors": "TH Tan, M Gochoo, YF Chen, JJ Hu, JY Chiang, CS Chang, MH Lee, ...",
+      "publication": "Sensors 17 (1), 202, 2017",
+      "cited_by": {
+        "value": 38,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13987402574745168572",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13987402574745168572&engine=google_scholar&hl=en",
+        "cites_id": "13987402574745168572"
+      },
+      "year": "2017"
+    },
+    {
+      "title": "Human activity recognition using an ensemble learning algorithm with smartphone sensor data",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:j3f4tGmQtD8C",
+      "citation_id": "TJh4iVUAAAAJ:j3f4tGmQtD8C",
+      "authors": "TH Tan, JY Wu, SH Liu, M Gochoo",
+      "publication": "Electronics 11 (3), 322, 2022",
+      "cited_by": {
+        "value": 37,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2944610910923264068",
+        "serpapi_link": "https://serpapi.com/search.json?cites=2944610910923264068&engine=google_scholar&hl=en",
+        "cites_id": "2944610910923264068"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Robots, AI, and cognitive training in an era of mass age-related cognitive decline: a systematic review",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:Se3iqnhoufwC",
+      "citation_id": "TJh4iVUAAAAJ:Se3iqnhoufwC",
+      "authors": "AA Vogan, F Alnajjar, M Gochoo, S Khalid",
+      "publication": "IEEE Access 8, 18284-18304, 2020",
+      "cited_by": {
+        "value": 34,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6939033129089262679",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6939033129089262679&engine=google_scholar&hl=en",
+        "cites_id": "6939033129089262679"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "Combating deepfakes: Multi-LSTM and blockchain as proof of authenticity for digital media",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:3fE2CSJIrl8C",
+      "citation_id": "TJh4iVUAAAAJ:3fE2CSJIrl8C",
+      "authors": "CCK Chan, V Kumar, S Delaney, M Gochoo",
+      "publication": "2020 IEEE/ITU International Conference on Artificial Intelligence for Good \u2026, 2020",
+      "cited_by": {
+        "value": 30,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14204948327249809760",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14204948327249809760&engine=google_scholar&hl=en",
+        "cites_id": "14204948327249809760"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "Front-door event classification algorithm for elderly people living alone in smart house using wireless binary sensors",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:2osOgNQ5qMEC",
+      "citation_id": "TJh4iVUAAAAJ:2osOgNQ5qMEC",
+      "authors": "TH Tan, M Gochoo, FR Jean, SC Huang, SY Kuo",
+      "publication": "IEEE Access 5, 10734-10743, 2017",
+      "cited_by": {
+        "value": 30,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9387253296278932880",
+        "serpapi_link": "https://serpapi.com/search.json?cites=9387253296278932880&engine=google_scholar&hl=en",
+        "cites_id": "9387253296278932880"
+      },
+      "year": "2017"
+    },
+    {
+      "title": "A systematic deep learning based overhead tracking and counting system using RGB-D remote cameras",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:70eg2SAEIzsC",
+      "citation_id": "TJh4iVUAAAAJ:70eg2SAEIzsC",
+      "authors": "M Gochoo, SA Rizwan, YY Ghadi, A Jalal, K Kim",
+      "publication": "Applied Sciences 11 (12), 5503, 2021",
+      "cited_by": {
+        "value": 29,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4855058510727432975",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4855058510727432975&engine=google_scholar&hl=en",
+        "cites_id": "4855058510727432975"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Trends and technologies in rehabilitation of foot drop: A systematic review",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:MXK_kJrjxJIC",
+      "citation_id": "TJh4iVUAAAAJ:MXK_kJrjxJIC",
+      "authors": "F Alnajjar, R Zaier, S Khalid, M Gochoo",
+      "publication": "Expert review of medical devices 18 (1), 31-46, 2021",
+      "cited_by": {
+        "value": 28,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7043739591760223084",
+        "serpapi_link": "https://serpapi.com/search.json?cites=7043739591760223084&engine=google_scholar&hl=en",
+        "cites_id": "7043739591760223084"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "DCNN-based elderly activity recognition using binary sensors",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:Y0pCki6q_DkC",
+      "citation_id": "TJh4iVUAAAAJ:Y0pCki6q_DkC",
+      "authors": "M Gochoo, TH Tan, SC Huang, SH Liu, FS Alnajjar",
+      "publication": "2017 international conference on electrical and computing technologies and \u2026, 2017",
+      "cited_by": {
+        "value": 28,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15769950953943900821",
+        "serpapi_link": "https://serpapi.com/search.json?cites=15769950953943900821&engine=google_scholar&hl=en",
+        "cites_id": "15769950953943900821"
+      },
+      "year": "2017"
+    },
+    {
+      "title": "Robotic assistive and rehabilitation devices leading to motor recovery in upper limb: a systematic review",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:4DMP91E08xMC",
+      "citation_id": "TJh4iVUAAAAJ:4DMP91E08xMC",
+      "authors": "S Khalid, F Alnajjar, M Gochoo, A Renawi, S Shimoda",
+      "publication": "Disability and Rehabilitation: Assistive Technology 18 (5), 658-672, 2023",
+      "cited_by": {
+        "value": 27,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17523423352574618657",
+        "serpapi_link": "https://serpapi.com/search.json?cites=17523423352574618657&engine=google_scholar&hl=en",
+        "cites_id": "17523423352574618657"
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Improved global motion estimation via motion vector clustering for video stabilization",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:u5HHmVD_uO8C",
+      "citation_id": "TJh4iVUAAAAJ:u5HHmVD_uO8C",
+      "authors": "BH Chen, A Kopylov, SC Huang, O Seredin, R Karpov, SY Kuo, KR Lai, ...",
+      "publication": "Engineering Applications of Artificial Intelligence 54, 39-48, 2016",
+      "cited_by": {
+        "value": 26,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3600143149454801559",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3600143149454801559&engine=google_scholar&hl=en",
+        "cites_id": "3600143149454801559"
+      },
+      "year": "2016"
+    },
+    {
+      "title": "Towards privacy-preserved aging in place: a systematic review",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:QIV2ME_5wuYC",
+      "citation_id": "TJh4iVUAAAAJ:QIV2ME_5wuYC",
+      "authors": "M Gochoo, F Alnajjar, TH Tan, S Khalid",
+      "publication": "Sensors 21 (9), 3082, 2021",
+      "cited_by": {
+        "value": 24,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6190946420487777567",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6190946420487777567&engine=google_scholar&hl=en",
+        "cites_id": "6190946420487777567"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Device-free non-privacy invasive indoor human posture recognition using low-resolution infrared sensor-based wireless sensor networks and DCNN",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:eQOLeE2rZwMC",
+      "citation_id": "TJh4iVUAAAAJ:eQOLeE2rZwMC",
+      "authors": "M Gochoo, TH Tan, T Batjargal, O Seredin, SC Huang",
+      "publication": "2018 IEEE International Conference on Systems, Man, and Cybernetics (SMC \u2026, 2018",
+      "cited_by": {
+        "value": 24,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6531542652743624362",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6531542652743624362&engine=google_scholar&hl=en",
+        "cites_id": "6531542652743624362"
+      },
+      "year": "2018"
+    },
+    {
+      "title": "Indoor activity monitoring system for elderly using RFID and Fitbit Flex wristband",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:IjCSPb-OGe4C",
+      "citation_id": "TJh4iVUAAAAJ:IjCSPb-OGe4C",
+      "authors": "TH Tan, M Gochoo, KH Chen, FR Jean, YF Chen, FJ Shih, CF Ho",
+      "publication": "IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI \u2026, 2014",
+      "cited_by": {
+        "value": 24,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12273304811879662591",
+        "serpapi_link": "https://serpapi.com/search.json?cites=12273304811879662591&engine=google_scholar&hl=en",
+        "cites_id": "12273304811879662591"
+      },
+      "year": "2014"
+    },
+    {
+      "title": "SHEL5K: An extended dataset and benchmarking for safety helmet detection",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:bEWYMUwI8FkC",
+      "citation_id": "TJh4iVUAAAAJ:bEWYMUwI8FkC",
+      "authors": "ME Otgonbold, M Gochoo, F Alnajjar, L Ali, TH Tan, JW Hsieh, PY Chen",
+      "publication": "Sensors 22 (6), 2315, 2022",
+      "cited_by": {
+        "value": 23,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12781473719385030986",
+        "serpapi_link": "https://serpapi.com/search.json?cites=12781473719385030986&engine=google_scholar&hl=en",
+        "cites_id": "12781473719385030986"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Smaller object detection for real-time embedded traffic flow estimation using fish-eye cameras",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:ufrVoPGSRksC",
+      "citation_id": "TJh4iVUAAAAJ:ufrVoPGSRksC",
+      "authors": "PY Chen, JW Hsieh, M Gochoo, CY Wang, HYM Liao",
+      "publication": "2019 IEEE international conference on image processing (ICIP), 2956-2960, 2019",
+      "cited_by": {
+        "value": 22,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7630690920549381837",
+        "serpapi_link": "https://serpapi.com/search.json?cites=7630690920549381837&engine=google_scholar&hl=en",
+        "cites_id": "7630690920549381837"
+      },
+      "year": "2019"
+    },
+    {
+      "title": "Conventional machine learning and deep learning in Alzheimer's disease diagnosis using neuroimaging: A review",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:NaGl4SEjCO4C",
+      "citation_id": "TJh4iVUAAAAJ:NaGl4SEjCO4C",
+      "authors": "Z Zhao, JH Chuah, KW Lai, CO Chow, M Gochoo, S Dhanalakshmi, ...",
+      "publication": "Frontiers in Computational Neuroscience 17, 1038636, 2023",
+      "cited_by": {
+        "value": 19,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11990615187044197405",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11990615187044197405&engine=google_scholar&hl=en",
+        "cites_id": "11990615187044197405"
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Robots in education: An introduction to high-tech social agents, intelligent tutors, and curricular tools",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:3s1wT3WcHBgC",
+      "citation_id": "TJh4iVUAAAAJ:3s1wT3WcHBgC",
+      "authors": "F Alnajjar, C Bartneck, P Baxter, T Belpaeme, M Cappuccio, C Di Dio, ...",
+      "publication": "Routledge, 2021",
+      "cited_by": {
+        "value": 19,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13462866939616805638",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13462866939616805638&engine=google_scholar&hl=en",
+        "cites_id": "13462866939616805638"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Real-Time Attention Monitoring System for Classroom: A Deep Learning Approach for Student\u2019s Behavior Recognition",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:RYcK_YlVTxYC",
+      "citation_id": "TJh4iVUAAAAJ:RYcK_YlVTxYC",
+      "authors": "Z Trabelsi, F Alnajjar, MMA Parambil, M Gochoo, L Ali",
+      "publication": "Big Data and Cognitive Computing 7 (1), 48, 2023",
+      "cited_by": {
+        "value": 18,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3224099023158473360",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3224099023158473360&engine=google_scholar&hl=en",
+        "cites_id": "3224099023158473360"
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Arsl21l: Arabic sign language letter dataset benchmarking and an educational avatar for metaverse applications",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:isC4tDSrTZIC",
+      "citation_id": "TJh4iVUAAAAJ:isC4tDSrTZIC",
+      "authors": "G Batnasan, M Gochoo, ME Otgonbold, F Alnajjar, TK Shih",
+      "publication": "2022 ieee global engineering education conference (educon), 1814-1821, 2022",
+      "cited_by": {
+        "value": 17,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2817167990801161066",
+        "serpapi_link": "https://serpapi.com/search.json?cites=2817167990801161066&engine=google_scholar&hl=en",
+        "cites_id": "2817167990801161066"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Smart Traffic Monitoring Through Pyramid Pooling Vehicle Detection and Filter-Based Tracking on Aerial Images",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:ns9cj8rnVeAC",
+      "citation_id": "TJh4iVUAAAAJ:ns9cj8rnVeAC",
+      "authors": "AA Rafique, A Al-Rasheed, A Ksibi, M Ayadi, A Jalal, K Alnowaiser, ...",
+      "publication": "IEEE Access 11, 2993-3007, 2023",
+      "cited_by": {
+        "value": 15,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11760228079487899907",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11760228079487899907&engine=google_scholar&hl=en",
+        "cites_id": "11760228079487899907"
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Student\u2019s health exercise recognition tool for E-learning education",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:ZHo1McVdvXMC",
+      "citation_id": "TJh4iVUAAAAJ:ZHo1McVdvXMC",
+      "authors": "T Al Shloul, M Javeed, M Gochoo, SA Alsuhibany, YY Ghadi, A Jalal, ...",
+      "publication": "Intell. Autom. Soft Comput 35 (1), 149-161, 2023",
+      "cited_by": {
+        "value": 15,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12996129975764688130",
+        "serpapi_link": "https://serpapi.com/search.json?cites=12996129975764688130&engine=google_scholar&hl=en",
+        "cites_id": "12996129975764688130"
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Novel spatio-temporal continuous sign language recognition using an attentive multi-feature network",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:blknAaTinKkC",
+      "citation_id": "TJh4iVUAAAAJ:blknAaTinKkC",
+      "authors": "W Aditya, TK Shih, T Thaipisutikul, AS Fitriajie, M Gochoo, ...",
+      "publication": "Sensors 22 (17), 6452, 2022",
+      "cited_by": {
+        "value": 12,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9412100652517142453",
+        "serpapi_link": "https://serpapi.com/search.json?cites=9412100652517142453&engine=google_scholar&hl=en",
+        "cites_id": "9412100652517142453"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Web-based multi-user concurrent job scheduling system on the shared computing resource objects",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:KlAtU1dfN6UC",
+      "citation_id": "TJh4iVUAAAAJ:KlAtU1dfN6UC",
+      "authors": "T Habuza, K Khalil, N Zaki, F Alnajjar, M Gochoo",
+      "publication": "2020 14th International Conference on Innovations in Information Technology \u2026, 2020",
+      "cited_by": {
+        "value": 12,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15288473563157189377",
+        "serpapi_link": "https://serpapi.com/search.json?cites=15288473563157189377&engine=google_scholar&hl=en",
+        "cites_id": "15288473563157189377"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "Maximum entropy scaled super pixels segmentation for multi-object detection and scene recognition via deep belief network",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:35N4QoGY0k4C",
+      "citation_id": "TJh4iVUAAAAJ:35N4QoGY0k4C",
+      "authors": "AA Rafique, M Gochoo, A Jalal, K Kim",
+      "publication": "Multimedia Tools and Applications 82 (9), 13401-13430, 2023",
+      "cited_by": {
+        "value": 11,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2868029932023483847",
+        "serpapi_link": "https://serpapi.com/search.json?cites=2868029932023483847&engine=google_scholar&hl=en",
+        "cites_id": "2868029932023483847"
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Smart classroom: A deep learning approach towards attention assessment through class behavior detection",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:vV6vV6tmYwMC",
+      "citation_id": "TJh4iVUAAAAJ:vV6vV6tmYwMC",
+      "authors": "MMA Parambil, L Ali, F Alnajjar, M Gochoo",
+      "publication": "2022 Advances in Science and Engineering Technology International \u2026, 2022",
+      "cited_by": {
+        "value": 11,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15662707431309076583",
+        "serpapi_link": "https://serpapi.com/search.json?cites=15662707431309076583&engine=google_scholar&hl=en",
+        "cites_id": "15662707431309076583"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Residual bi-fusion feature pyramid network for accurate single-shot object detection",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:LkGwnXOMwfcC",
+      "citation_id": "TJh4iVUAAAAJ:LkGwnXOMwfcC",
+      "authors": "PY Chen, JW Hsieh, CY Wang, HYM Liao, M Gochoo",
+      "publication": "arXiv preprint arXiv:1911.12051, 2019",
+      "cited_by": {
+        "value": 11,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13771960151866529881",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13771960151866529881&engine=google_scholar&hl=en",
+        "cites_id": "13771960151866529881"
+      },
+      "year": "2019"
+    },
+    {
+      "title": "CHAD: Compact Hand-Assistive Device for enhancement of function in hand impairments",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:Wp0gIr-vW9MC",
+      "citation_id": "TJh4iVUAAAAJ:Wp0gIr-vW9MC",
+      "authors": "F Alnajjar, H Umari, WK Ahmed, M Gochoo, AA Vogan, A Aljumaily, ...",
+      "publication": "Robotics and Autonomous Systems 142, 103784, 2021",
+      "cited_by": {
+        "value": 10,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10829626251594786802",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10829626251594786802&engine=google_scholar&hl=en",
+        "cites_id": "10829626251594786802"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Fall detection for elderly persons using android-based platform",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:u-x6o8ySG0sC",
+      "citation_id": "TJh4iVUAAAAJ:u-x6o8ySG0sC",
+      "authors": "TH Tan, M Gochoo, CS Chang, CT Wu, JY Chiang",
+      "publication": "Energy 2 (2), 2, 2013",
+      "cited_by": {
+        "value": 10,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6309368130482049367",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6309368130482049367&engine=google_scholar&hl=en",
+        "cites_id": "6309368130482049367"
+      },
+      "year": "2013"
+    },
+    {
+      "title": "Development of an emergency medical service system based on wireless networks and real-time traffic information",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:9yKSN-GCB0IC",
+      "citation_id": "TJh4iVUAAAAJ:9yKSN-GCB0IC",
+      "authors": "TH Tan, M Gochoo, S Bilgee, CS Chang, JJ Hu, YF Chen, JY Chiang, ...",
+      "publication": "2012 International Conference on Computerized Healthcare (ICCH), 35-42, 2012",
+      "cited_by": {
+        "value": 10,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8315799940510174824",
+        "serpapi_link": "https://serpapi.com/search.json?cites=8315799940510174824&engine=google_scholar&hl=en",
+        "cites_id": "8315799940510174824"
+      },
+      "year": "2012"
+    },
+    {
+      "title": "Deep convolutional neural network classifier for travel patterns using binary sensors",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:Tyk-4Ss8FVUC",
+      "citation_id": "TJh4iVUAAAAJ:Tyk-4Ss8FVUC",
+      "authors": "M Gochoo, SH Liu, D Bayanduuren, TH Tan, V Velusamy, TY Liu",
+      "publication": "2017 IEEE 8th International Conference on Awareness Science and Technology \u2026, 2017",
+      "cited_by": {
+        "value": 9,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10104931562564679233",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10104931562564679233&engine=google_scholar&hl=en",
+        "cites_id": "10104931562564679233"
+      },
+      "year": "2017"
+    },
+    {
+      "title": "Binary sensors-based privacy-preserved activity recognition of elderly living alone using an RNN",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:hFOr9nPyWt4C",
+      "citation_id": "TJh4iVUAAAAJ:hFOr9nPyWt4C",
+      "authors": "TH Tan, L Badarch, WX Zeng, M Gochoo, FS Alnajjar, JW Hsieh",
+      "publication": "Sensors 21 (16), 5371, 2021",
+      "cited_by": {
+        "value": 8,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=21542667215157783",
+        "serpapi_link": "https://serpapi.com/search.json?cites=21542667215157783&engine=google_scholar&hl=en",
+        "cites_id": "21542667215157783"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Lownet: Privacy preserved ultra-low resolution posture image classification",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:5nxA0vEk-isC",
+      "citation_id": "TJh4iVUAAAAJ:5nxA0vEk-isC",
+      "authors": "M Gochoo, TH Tan, F Alnajjar, JW Hsieh, PY Chen",
+      "publication": "2020 IEEE International Conference on Image Processing (ICIP), 663-667, 2020",
+      "cited_by": {
+        "value": 8,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3694925955746709738",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3694925955746709738&engine=google_scholar&hl=en",
+        "cites_id": "3694925955746709738"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "A simplified real-time camera-based attention assessment system for classrooms: pilot study",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:RGFaLdJalmkC",
+      "citation_id": "TJh4iVUAAAAJ:RGFaLdJalmkC",
+      "authors": "A Renawi, F Alnajjar, M Parambil, Z Trabelsi, M Gochoo, S Khalid, ...",
+      "publication": "Education and Information Technologies, 1-18, 2021",
+      "cited_by": {
+        "value": 7,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17774787231592794120",
+        "serpapi_link": "https://serpapi.com/search.json?cites=17774787231592794120&engine=google_scholar&hl=en",
+        "cites_id": "17774787231592794120"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Activity recognition based on FR-CNN and attention-based LSTM network",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:_Qo2XoVZTnwC",
+      "citation_id": "TJh4iVUAAAAJ:_Qo2XoVZTnwC",
+      "authors": "TH Tan, CJ Huang, M Gochoo, YF Chen",
+      "publication": "2021 30th Wireless and Optical Communications Conference (WOCC), 146-149, 2021",
+      "cited_by": {
+        "value": 7,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5284255360536089774",
+        "serpapi_link": "https://serpapi.com/search.json?cites=5284255360536089774&engine=google_scholar&hl=en",
+        "cites_id": "5284255360536089774"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Light-weight mixed stage partial network for surveillance object detection with background data augmentation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:HDshCWvjkbEC",
+      "citation_id": "TJh4iVUAAAAJ:HDshCWvjkbEC",
+      "authors": "C Ping-Yang, JW Hsieh, M Gochoo, YS Chen",
+      "publication": "2021 IEEE International Conference on Image Processing (ICIP), 3333-3337, 2021",
+      "cited_by": {
+        "value": 7,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13629245879725421769",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13629245879725421769&engine=google_scholar&hl=en",
+        "cites_id": "13629245879725421769"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Affinity-based task scheduling on heterogeneous multicore systems using CBS and QBICTM",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:zA6iFVUQeVQC",
+      "citation_id": "TJh4iVUAAAAJ:zA6iFVUQeVQC",
+      "authors": "SI Abbasi, S Kamal, M Gochoo, A Jalal, K Kim",
+      "publication": "Applied Sciences 11 (12), 5740, 2021",
+      "cited_by": {
+        "value": 7,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15559947414434218753",
+        "serpapi_link": "https://serpapi.com/search.json?cites=15559947414434218753&engine=google_scholar&hl=en",
+        "cites_id": "15559947414434218753"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Device-free Non-invasive Front-door Event Classification Algorithm for Forget Event Detection Using Binary Sensors in the Smart House",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:qjMakFHDy7sC",
+      "citation_id": "TJh4iVUAAAAJ:qjMakFHDy7sC",
+      "authors": "M Gochoo, TH Tan, FR Jean, SC Huang, SY Kuo",
+      "publication": "SMC2018, 2017",
+      "cited_by": {
+        "value": 7,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9362825974982927793",
+        "serpapi_link": "https://serpapi.com/search.json?cites=9362825974982927793&engine=google_scholar&hl=en",
+        "cites_id": "9362825974982927793"
+      },
+      "year": "2017"
+    },
+    {
+      "title": "Using direct acyclic graphs to enhance skeleton-based action recognition with a linear-map convolution neural network",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:dhFuZR0502QC",
+      "citation_id": "TJh4iVUAAAAJ:dhFuZR0502QC",
+      "authors": "TH Tan, JH Hus, SH Liu, YF Huang, M Gochoo",
+      "publication": "Sensors 21 (9), 3112, 2021",
+      "cited_by": {
+        "value": 6,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6770665940789288269",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6770665940789288269&engine=google_scholar&hl=en",
+        "cites_id": "6770665940789288269"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "System and method for social distancing compliance",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:mB3voiENLucC",
+      "citation_id": "TJh4iVUAAAAJ:mB3voiENLucC",
+      "authors": "M Gochoo, F Alnajjar, WK Ahmed, MA Aziz",
+      "publication": "US Patent 11,080,981, 2021",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16484849848849932205",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16484849848849932205&engine=google_scholar&hl=en",
+        "cites_id": "16484849848849932205"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Drone-Based Vehicle Flow Estimation and its Application to Traffic Conflict Hotspot Detection at Intersections",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:8k81kl-MbHgC",
+      "citation_id": "TJh4iVUAAAAJ:8k81kl-MbHgC",
+      "authors": "PY Chen, JW Hsieh, M Gochoo, MC Chang, CY Wang, YS Chen, ...",
+      "publication": "2020 IEEE International Conference on Image Processing (ICIP), 1521-1525, 2020",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18077283245207629963",
+        "serpapi_link": "https://serpapi.com/search.json?cites=18077283245207629963&engine=google_scholar&hl=en",
+        "cites_id": "18077283245207629963"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "Design and application of novel morphological filter used in vehicle detection",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:UeHWp8X0CEIC",
+      "citation_id": "TJh4iVUAAAAJ:UeHWp8X0CEIC",
+      "authors": "M Gochoo, D Bayanduuren, U Khuchit, G Battur, TH Tan, SY Kuo, ...",
+      "publication": "2016 IEEE/ACIS 15th International Conference on Computer and Information \u2026, 2016",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12182015561714242247",
+        "serpapi_link": "https://serpapi.com/search.json?cites=12182015561714242247&engine=google_scholar&hl=en",
+        "cites_id": "12182015561714242247"
+      },
+      "year": "2016"
+    },
+    {
+      "title": "Arm motion sensor system",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:iH-uZ7U-co4C",
+      "citation_id": "TJh4iVUAAAAJ:iH-uZ7U-co4C",
+      "authors": "F Alnajjar, MA Aziz, WK Ahmed, M Gochoo",
+      "publication": "US Patent 11,231,437, 2022",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18006797201381752577",
+        "serpapi_link": "https://serpapi.com/search.json?cites=18006797201381752577&engine=google_scholar&hl=en",
+        "cites_id": "18006797201381752577"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Ultra-Low Resolution Infrared Sensor-Based Wireless Sensor Network for Privacy-Preserved Recognition of Daily Activities of Living",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:r0BpntZqJG4C",
+      "citation_id": "TJh4iVUAAAAJ:r0BpntZqJG4C",
+      "authors": "L Badarch, M Gochoo, G Batnasan, F Alnajjar, TH Tan",
+      "publication": "2021 IEEE 20th International Symposium on Network Computing and Applications \u2026, 2021",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13978598037968145242",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13978598037968145242&engine=google_scholar&hl=en",
+        "cites_id": "13978598037968145242"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "A simulated measurement for COVID-19 pandemic using the effective reproductive number on an empirical portion of population: epidemiological models",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:rO6llkc54NcC",
+      "citation_id": "TJh4iVUAAAAJ:rO6llkc54NcC",
+      "authors": "B Alsinglawi, O Mubin, F Alnajjar, K Kheirallah, M Elkhodr, M Al Zobbi, ...",
+      "publication": "Neural Computing and Applications, 1-9, 2021",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14001333621024875594",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14001333621024875594&engine=google_scholar&hl=en",
+        "cites_id": "14001333621024875594"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Activity recognition based on DCNN and Kinect RGB images",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:kNdYIx-mwKoC",
+      "citation_id": "TJh4iVUAAAAJ:kNdYIx-mwKoC",
+      "authors": "TH Tan, M Gochoo, HS Chen, SH Liu, YF Huang",
+      "publication": "2020 International Conference on Fuzzy Theory and Its Applications (iFUZZY), 1-4, 2020",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6479204145271726921",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6479204145271726921&engine=google_scholar&hl=en",
+        "cites_id": "6479204145271726921"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "FishEye8K: A Benchmark and Dataset for Fisheye Camera Object Detection",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:g5m5HwL7SMYC",
+      "citation_id": "TJh4iVUAAAAJ:g5m5HwL7SMYC",
+      "authors": "FPL Munkhjargal Gochoo, Munkh-Erdene Otgonbold, Erkhembayar Ganbold, Jun-Wei ...",
+      "publication": "The IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR \u2026, 2023",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1355219847762051733",
+        "serpapi_link": "https://serpapi.com/search.json?cites=1355219847762051733&engine=google_scholar&hl=en",
+        "cites_id": "1355219847762051733"
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Using a Hybrid Neural Network and a Regularized Extreme Learning Machine for Human Activity Recognition with Smartphone and Smartwatch",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:lSLTfruPkqcC",
+      "citation_id": "TJh4iVUAAAAJ:lSLTfruPkqcC",
+      "authors": "TH Tan, JY Shih, SH Liu, M Alkhaleefah, YL Chang, M Gochoo",
+      "publication": "Sensors 23 (6), 3354, 2023",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17828875171486632213",
+        "serpapi_link": "https://serpapi.com/search.json?cites=17828875171486632213&engine=google_scholar&hl=en",
+        "cites_id": "17828875171486632213"
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Privacy-Preserved Social Distancing System Using Low-Resolution Thermal Sensors and Deep Learning",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:SeFeTyx0c_EC",
+      "citation_id": "TJh4iVUAAAAJ:SeFeTyx0c_EC",
+      "authors": "AF Alraeesi, HF Kharbash, JS Alghfeli, SS Alsaedi, M Gochoo",
+      "publication": "2021 IEEE International Conference on Systems, Man, and Cybernetics (SMC), 66-71, 2021",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1056919379518430511",
+        "serpapi_link": "https://serpapi.com/search.json?cites=1056919379518430511&engine=google_scholar&hl=en",
+        "cites_id": "1056919379518430511"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "AI and Robotics-Based Cognitive Training for Elderly: A Systematic Review",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:Zph67rFs4hoC",
+      "citation_id": "TJh4iVUAAAAJ:Zph67rFs4hoC",
+      "authors": "M Gochoo, AA Vogan, S Khalid, F Alnajjar",
+      "publication": "2020 IEEE/ITU International Conference on Artificial Intelligence for Good \u2026, 2020",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14914283251321850230",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14914283251321850230&engine=google_scholar&hl=en",
+        "cites_id": "14914283251321850230"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "Assistive and rehabilitation robotics for upper limb impairments in post-stroke patients: Evaluation criteria for the design and functionality",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:hqOjcs7Dif8C",
+      "citation_id": "TJh4iVUAAAAJ:hqOjcs7Dif8C",
+      "authors": "A Karam, F Alnajjar, M Gochoo",
+      "publication": "2020 Advances in Science and Engineering Technology International \u2026, 2020",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5619465145764289547",
+        "serpapi_link": "https://serpapi.com/search.json?cites=5619465145764289547&engine=google_scholar&hl=en",
+        "cites_id": "5619465145764289547"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "The Effect of Visual, Auditory, Tactile and Cognitive Feedback in Motor Skill Training: A Pilot Study Based on VR Gaming",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:R3hNpaxXUhUC",
+      "citation_id": "TJh4iVUAAAAJ:R3hNpaxXUhUC",
+      "authors": "F Alnajjar, Q An, M Saravanan, K Khalil, M Gochoo, S Shimoda",
+      "publication": "Converging Clinical and Engineering Research on Neurorehabilitation IV \u2026, 2022",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=446828284744448177",
+        "serpapi_link": "https://serpapi.com/search.json?cites=446828284744448177&engine=google_scholar&hl=en",
+        "cites_id": "446828284744448177"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Deep real-time hand detectoin using CFPN on embedded systems",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:mVmsd5A6BfQC",
+      "citation_id": "TJh4iVUAAAAJ:mVmsd5A6BfQC",
+      "authors": "P Hendri, JW Hsieh, PY Chen, M Gochoo, YS Chen",
+      "publication": "2020 25th International Conference on Pattern Recognition (ICPR), 10128-10133, 2021",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8984277242447753252",
+        "serpapi_link": "https://serpapi.com/search.json?cites=8984277242447753252&engine=google_scholar&hl=en",
+        "cites_id": "8984277242447753252"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Effectiveness of 3D Printing Technologies for Developing Ventilators",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:TQgYirikUcIC",
+      "citation_id": "TJh4iVUAAAAJ:TQgYirikUcIC",
+      "authors": "W Ahmed, F Alnajjar, M Gochoo, B Al Jazzar, MAP Medha",
+      "publication": "Evolutions of 3D Printing Technology for Fighting COVID-19 Pandemic, 2020",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5768586863103963055",
+        "serpapi_link": "https://serpapi.com/search.json?cites=5768586863103963055&engine=google_scholar&hl=en",
+        "cites_id": "5768586863103963055"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "Two-Stream Architecture Using RGB-based ConvNet and Pose-based LSTM for Video Action Recognition",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:4OULZ7Gr8RgC",
+      "citation_id": "TJh4iVUAAAAJ:4OULZ7Gr8RgC",
+      "authors": "CJ Huang, M Gochoo, TH Tan",
+      "publication": "2023 15th International Conference on Innovations in Information Technology \u2026, 2023",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2023"
+    },
+    {
+      "title": "ESL127: Emirate Sign Language Dataset (s) and e-Dictionary (Version 2.0) Utilizing Deep Learning Recognition Models",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:fPk4N6BV_jEC",
+      "citation_id": "TJh4iVUAAAAJ:fPk4N6BV_jEC",
+      "authors": "AA Ahmed, M Gochoo, M Taghizadeh, ME Otgonbold, G Batnasan",
+      "publication": "2023 15th International Conference on Innovations in Information Technology \u2026, 2023",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2023"
+    },
+    {
+      "title": "A Cloud-Based 3D Digital Twin for Arabic Sign Language Alphabet Using Machine Learning Object Detection Model",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:u_35RYKgDlwC",
+      "citation_id": "TJh4iVUAAAAJ:u_35RYKgDlwC",
+      "authors": "M Abduljabbar, M Gochoo, MT Sultan, G Batnasan, ME Otgonbold, ...",
+      "publication": "2023 15th International Conference on Innovations in Information Technology \u2026, 2023",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Fisheye Multiple Object Tracking by Learning Distortions Without Dewarping",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:HoB7MX3m0LUC",
+      "citation_id": "TJh4iVUAAAAJ:HoB7MX3m0LUC",
+      "authors": "PY Chen, JW Hsieh, MC Chang, M Gochoo, FP Lin, YS Chen",
+      "publication": "2023 IEEE International Conference on Image Processing (ICIP), 1855-1859, 2023",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Mixed Stage Partial Network and Background Data Augmentation for Surveillance Object Detection",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:GnPB-g6toBAC",
+      "citation_id": "TJh4iVUAAAAJ:GnPB-g6toBAC",
+      "authors": "PY Chen, JW Hsieh, M Gochoo, YS Chen",
+      "publication": "IEEE Transactions on Intelligent Transportation Systems 23 (12), 23533-23547, 2022",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Preface-Volume 1, Number 1",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:YFjsv_pBGBYC",
+      "citation_id": "TJh4iVUAAAAJ:YFjsv_pBGBYC",
+      "authors": "C Naimannaran, M Gochoo",
+      "publication": "ICT Focus 1 (1), i-ii, 2022",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Touchless elevator keyboard system",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:dfsIfKJdRG4C",
+      "citation_id": "TJh4iVUAAAAJ:dfsIfKJdRG4C",
+      "authors": "A Fady S, A Waleed, G Munkhjargal",
+      "publication": "US Patent US10968073B1, 2021",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Chronic kidney disease stage classification using renal artery doppler-derived parameters",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:roLk4NBRz8UC",
+      "citation_id": "TJh4iVUAAAAJ:roLk4NBRz8UC",
+      "authors": "M Gochoo, JW Hsieh, CH Lee, YC Chen, YC Shih",
+      "publication": "2019 IEEE International Conference on Systems, Man and Cybernetics (SMC \u2026, 2019",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2019"
+    },
+    {
+      "title": "NON-INTRUSIVE DEVICE-FREE POSTURE RECOGNITION FOR ELDERLY PEOPLE USING DEEP LEARNING AND INFRARED SENSORS",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TJh4iVUAAAAJ&pagesize=100&citation_for_view=TJh4iVUAAAAJ:_FxGoFyzp5QC",
+      "citation_id": "TJh4iVUAAAAJ:_FxGoFyzp5QC",
+      "authors": "M Gochoo, TH Tan, T Batjargal, SC Huang",
+      "cited_by": {
+        "value": null
+      },
+      "year": ""
+    }
+  ],
+  "cited_by": {
+    "table": [
+      {
+        "citations": {
+          "all": 1542,
+          "since_2019": 1470
+        }
+      },
+      {
+        "h_index": {
+          "all": 24,
+          "since_2019": 22
+        }
+      },
+      {
+        "i10_index": {
+          "all": 40,
+          "since_2019": 37
+        }
+      }
+    ],
+    "graph": [
+      {
+        "year": 2015,
+        "citations": 8
+      },
+      {
+        "year": 2016,
+        "citations": 7
+      },
+      {
+        "year": 2017,
+        "citations": 16
+      },
+      {
+        "year": 2018,
+        "citations": 36
+      },
+      {
+        "year": 2019,
+        "citations": 56
+      },
+      {
+        "year": 2020,
+        "citations": 115
+      },
+      {
+        "year": 2021,
+        "citations": 239
+      },
+      {
+        "year": 2022,
+        "citations": 442
+      },
+      {
+        "year": 2023,
+        "citations": 584
+      },
+      {
+        "year": 2024,
+        "citations": 25
+      }
+    ]
+  },
+  "co_authors": [
+    {
+      "name": "Fady Alnajjar, Fady Shibata Alnajjar",
+      "link": "https://scholar.google.com/citations?user=BjRM7fgAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=BjRM7fgAAAAJ&engine=google_scholar_author&hl=en&num=100",
+      "author_id": "BjRM7fgAAAAJ",
+      "affiliations": "Associate Professor, College of Information Technology - UAEU",
+      "email": "Verified email at uaeu.ac.ae",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=BjRM7fgAAAAJ&citpid=4"
+    },
+    {
+      "name": "JunWei Hsieh",
+      "link": "https://scholar.google.com/citations?user=uydDqNcAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=uydDqNcAAAAJ&engine=google_scholar_author&hl=en&num=100",
+      "author_id": "uydDqNcAAAAJ",
+      "affiliations": "National Yung-Ming Chiao-Tung University",
+      "email": "Verified email at ntou.edu.tw",
+      "thumbnail": "https://scholar.google.com/citations/images/avatar_scholar_56.png"
+    },
+    {
+      "name": "Shing Hong Liu",
+      "link": "https://scholar.google.com/citations?user=bTs8goUAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=bTs8goUAAAAJ&engine=google_scholar_author&hl=en&num=100",
+      "author_id": "bTs8goUAAAAJ",
+      "affiliations": "Department of Computer Science and Information Engineering, Chaoyang University of Technology",
+      "email": "Verified email at cyut.edu.tw",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=bTs8goUAAAAJ&citpid=2"
+    },
+    {
+      "name": "Sy-Yen Kuo",
+      "link": "https://scholar.google.com/citations?user=NuPxDGQAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=NuPxDGQAAAAJ&engine=google_scholar_author&hl=en&num=100",
+      "author_id": "NuPxDGQAAAAJ",
+      "affiliations": "National Taiwan University",
+      "email": "Verified email at ntu.edu.tw",
+      "thumbnail": "https://scholar.google.com/citations/images/avatar_scholar_56.png"
+    },
+    {
+      "name": "John Y. Chiang",
+      "link": "https://scholar.google.com/citations?user=sQ2EYmgAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=sQ2EYmgAAAAJ&engine=google_scholar_author&hl=en&num=100",
+      "author_id": "sQ2EYmgAAAAJ",
+      "affiliations": "Professor of Computer Science and Engineering, National Sun Yat-sen University",
+      "email": "Verified email at cse.nsysu.edu.tw",
+      "thumbnail": "https://scholar.google.com/citations/images/avatar_scholar_56.png"
+    },
+    {
+      "name": "vijayalakshmi velusamy",
+      "link": "https://scholar.google.com/citations?user=4qHyeWsAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=4qHyeWsAAAAJ&engine=google_scholar_author&hl=en&num=100",
+      "author_id": "4qHyeWsAAAAJ",
+      "affiliations": "Higher Colleges of Technology",
+      "email": "Verified email at hct.ac.ae",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=4qHyeWsAAAAJ&citpid=3"
+    },
+    {
+      "name": "Mark Liao",
+      "link": "https://scholar.google.com/citations?user=_IXt8boAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=_IXt8boAAAAJ&engine=google_scholar_author&hl=en&num=100",
+      "author_id": "_IXt8boAAAAJ",
+      "affiliations": "Distinguished Research Fellow, Institute of Information Science, Academia Sinica, Taiwan",
+      "email": "Verified email at iis.sinica.edu.tw",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=_IXt8boAAAAJ&citpid=2"
+    },
+    {
+      "name": "Oleg Seredin",
+      "link": "https://scholar.google.com/citations?user=d8ZG0D4AAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=d8ZG0D4AAAAJ&engine=google_scholar_author&hl=en&num=100",
+      "author_id": "d8ZG0D4AAAAJ",
+      "affiliations": "Associate Professor, Leading Researcher, Tula State University",
+      "email": "Verified email at tsu.tula.ru",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=d8ZG0D4AAAAJ&citpid=2"
+    },
+    {
+      "name": "Yung-Fa Huang (\u9ec3\u6c38\u767c)",
+      "link": "https://scholar.google.com/citations?user=dx2wk04AAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=dx2wk04AAAAJ&engine=google_scholar_author&hl=en&num=100",
+      "author_id": "dx2wk04AAAAJ",
+      "affiliations": "Professor at Chaoyang University of Technology",
+      "email": "Verified email at cyut.edu.tw",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=dx2wk04AAAAJ&citpid=2"
+    },
+    {
+      "name": "Ming-Ching Chang \u5f35\u660e\u6e05",
+      "link": "https://scholar.google.com/citations?user=a3-Gl8YAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=a3-Gl8YAAAAJ&engine=google_scholar_author&hl=en&num=100",
+      "author_id": "a3-Gl8YAAAAJ",
+      "affiliations": "University at Albany - SUNY",
+      "email": "Verified email at albany.edu",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=a3-Gl8YAAAAJ&citpid=4"
+    },
+    {
+      "name": "Kopylov Andrey",
+      "link": "https://scholar.google.com/citations?user=Sof6xYsAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=Sof6xYsAAAAJ&engine=google_scholar_author&hl=en&num=100",
+      "author_id": "Sof6xYsAAAAJ",
+      "affiliations": "Tula State University",
+      "email": "Verified email at tsu.tula.ru",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=Sof6xYsAAAAJ&citpid=2"
+    },
+    {
+      "name": "Cihun-Siyong Alex Gong",
+      "link": "https://scholar.google.com/citations?user=hjgaKFUAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=hjgaKFUAAAAJ&engine=google_scholar_author&hl=en&num=100",
+      "author_id": "hjgaKFUAAAAJ",
+      "affiliations": "Professor of Chang Gung University & Linkou Chang Gung Memorial Hospital, Taiwan",
+      "email": "Verified email at mail.cgu.edu.tw",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=hjgaKFUAAAAJ&citpid=3"
+    },
+    {
+      "name": "Bo-Hao Chen",
+      "link": "https://scholar.google.com/citations?user=BTxgXk4AAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=BTxgXk4AAAAJ&engine=google_scholar_author&hl=en&num=100",
+      "author_id": "BTxgXk4AAAAJ",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=BTxgXk4AAAAJ&citpid=2"
+    }
+  ]
+}

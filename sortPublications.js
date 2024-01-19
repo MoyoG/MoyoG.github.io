@@ -1,11 +1,14 @@
 var pub;
-var selected;
-fetch("./publication.json")
+var sorted_featured;
+var sorted_patents;
+fetch("./publications_2024_01.json")
   .then((response) => response.json())
   .then((data) => {
     pub = data;
     //selected = data.articles.slice(0, 4);
-    selected = chooseSelectedPapers(data.articles);
+    //sorted_featured = chooseSelectedPapers(data.articles);
+    sorted_patents = sortPatents(data.articles);
+    sorted_featured = sorted_featured_papers(data.articles);
     showInfo(data.articles, "allPaperBody");
   });
 
@@ -41,10 +44,10 @@ function showInfo(data, tableBodyId) {
     p.innerHTML = articles[i]["authors"];
     p1.innerHTML = articles[i]["publication"];
     a.appendChild(h3);
-    td3.appendChild(a);
-    td3.appendChild(p);
-    td3.appendChild(p1);
-    td1.innerHTML = articles[i]["year"];
+    td1.appendChild(a);
+    td1.appendChild(p);
+    td1.appendChild(p1);
+    td3.innerHTML = articles[i]["year"];
     td2.innerHTML = articles[i]["cited_by"]["value"];
   }
 }
@@ -57,6 +60,7 @@ function sortCiteBy(pub, tableBodyId) {
     headerId = "cite2";
     var data = pub;
   }
+
   var t = document.getElementById(headerId);
   var des = t.getAttribute("value");
   if (des == "des") {
@@ -113,24 +117,67 @@ function sortYear(pub, tableBodyId) {
   showInfo(sortedData, tableBodyId);
 }
 //------ sort selected papers-------=//
-function sortSelectedPapers(selected) {
-  data = selected;
-  showInfo(data, "selectedPapers");
+// function showSelectedPapers(selected) {
+//   data = selected;
+//   showInfo(data, "selectedPapers");
+// }
+
+function showPapers(pub, body_ID) {
+  data = pub;
+  showInfo(data, body_ID);
 }
-function showAllpapers(pub) {
-  data = pub.articles;
-  showInfo(data, "allPaperBody");
-}
-function chooseSelectedPapers(data) {
+
+// function chooseSelectedPapers(data) {
+//   var index = 0;
+//   var selectedPapers = [];
+//   for (let k = 0; k < data.length; k++) {
+//     var yearvalue = data[k]["year"];
+//     var citeValue = data[k]["cited_by"]["value"];
+//     if (citeValue >= 20 || yearvalue >= 2022) {
+//       selectedPapers[index] = data[k];
+//       index++;
+//     }
+//   }
+//   return selectedPapers;
+// }
+
+function sorted_featured_papers(data) {
   var index = 0;
-  var selectedPapers = [];
+  var featuredPapers = [];
+  fetch("./featured_papers_list.txt")
+    .then((response) => response.text())
+    .then((texts) => {
+      lines = texts.split("\n");
+      //console.log("lines=", lines.length);
+      for (let k = 0; k < data.length; k++) {
+        var title = data[k]["title"];
+        for (let i = 0; i < lines.length; i++) {
+          // console.log("L:", lines[i].toLowerCase());
+          // console.log("T:", title.toLowerCase());
+          if (lines[i].toLowerCase().match(title.toLowerCase())) {
+            featuredPapers[index] = data[k];
+            index++;
+          }
+        }
+      }
+    });
+  //console.log("featured=", featuredPapers.length);
+  return featuredPapers;
+}
+
+function sortPatents(data) {
+  var index = 0;
+  var patents = [];
   for (let k = 0; k < data.length; k++) {
-    var yearvalue = data[k]["year"];
-    var citeValue = data[k]["cited_by"]["value"];
-    if (citeValue >= 20 || yearvalue >= 2022) {
-      selectedPapers[index] = data[k];
-      index++;
+    var pubValue = data[k]["publication"];
+    if (pubValue != null) {
+      let substr = "US Patent";
+      let result = pubValue.includes(substr);
+      if (result == true) {
+        patents[index] = data[k];
+        index++;
+      }
     }
   }
-  return selectedPapers;
+  return patents;
 }
