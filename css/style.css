@@ -696,16 +696,10 @@ div.bibinfo pre { clear:both; }
     color: #000;
     font-weight: 600;
 }
-.mytabs .dataTable_wrapper #selected-papers{
+.mytabs .dataTable_wrapper #featured-papers{
     display: none;
 }
-.mytabs .dataTable_wrapper #DL-papers{
-    display: none;
-}
-.mytabs .dataTable_wrapper #Elder-papers{
-    display: none;
-}
-.mytabs .dataTable_wrapper #embedded-papers{
+.mytabs .dataTable_wrapper #patents{
     display: none;
 }
 /*

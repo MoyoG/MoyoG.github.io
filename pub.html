@@ -123,10 +123,6 @@
         });
         });
     </script>
-    <script>
-        itab=1;
-        itype=1;
-    </script>
     <div id="pubTable_wrapper" class="dataTable_wrapper no-footer">
         <table id="all-papers" class="display bibtable dataTable no-footer" role="grid" arai-describedby="pubTable_info" style="width: 100%;">
             <thead>
@@ -154,8 +150,8 @@
             <thead>
                 <tr role="row">
                     <th class="sorting_disabled" rowspan="1" colspan="1" aria-label="Publication" style="width:80%;">Publication</th>
-                    <th id="typetable3" class="sorting_desc" tabindex="0" aria-controls="pubTable" rowspan="1" colspan="1" aria-label="Type:active to sort column descending" style="width:10%;" onclick="sortCiteBy(sorted_patents,'patentsBody');itype++;">Cited by</th>
-                    <th id="yeartable3" class="sorting_desc" tabindex="0" aria-controls="pubTable" rowspan="1" colspan="1" aria-sort="descending" aria-label="Year: active to sort column ascending" style="width:10%;" onclick="sortYear(sorted_patents,'patentsBody');itab++;">Year</th>
+                    <th id="typetable3" class="sorting_desc" tabindex="0" aria-controls="pubTable" rowspan="1" colspan="1" aria-label="Type:active to sort column descending" style="width:10%;" onclick="sortCiteBy(sorted_patents,'patentsBody')">Cited by</th>
+                    <th id="yeartable3" class="sorting_desc" tabindex="0" aria-controls="pubTable" rowspan="1" colspan="1" aria-sort="descending" aria-label="Year: active to sort column ascending" style="width:10%;" onclick="sortYear(sorted_patents,'patentsBody')">Year</th>
                 </tr>
             </thead>
             <tbody id="patentsBody">
